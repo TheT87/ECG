@@ -9,7 +9,338 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c375b4f1-37c9-4060-982c-341cd022df8a" name="Default Changelist" comment="" />
+    <list default="true" id="c375b4f1-37c9-4060-982c-341cd022df8a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/.idea/W1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTut9/.idea/ECGTut9.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTut9/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTut9/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTut9/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTut9/ConsoleApplication3.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTut9/ConsoleApplication3/AusleihbarerGegenstand.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTut9/ConsoleApplication3/AusleihbarerGegenstand.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTut9/ConsoleApplication3/Autor.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTut9/ConsoleApplication3/Autor.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTut9/ConsoleApplication3/Buch.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTut9/ConsoleApplication3/Buch.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTut9/ConsoleApplication3/ConsoleApplication3.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTut9/ConsoleApplication3/ConsoleApplication3.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTut9/ConsoleApplication3/Leihgabe.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTut9/ConsoleApplication3/Leihgabe.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTut9/ConsoleApplication3/Mensch.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTut9/ConsoleApplication3/Mensch.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTut9/ConsoleApplication3/Verleihsystem.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTut9/ConsoleApplication3/Verleihsystem.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTut9/ConsoleApplication3/stdafx.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTut9/ConsoleApplication3/stdafx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTut9/ConsoleApplication3/targetver.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTutorial2/ECGTutorial.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTutorial2/ECGTutorial/.idea/ECGTutorial.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTutorial2/ECGTutorial/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTutorial2/ECGTutorial/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTutorial2/ECGTutorial/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTutorial2/ECGTutorial/ECGTutorial.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTutorial2/ECGTutorial/ECGTutorial.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTutorial2/ECGTutorial/ECGTutorial.vcxproj.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTutorial2/ECGTutorial/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTutorial3/ECGTutorial.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTutorial3/ECGTutorial/ECGTutorial.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTutorial3/ECGTutorial/ECGTutorial.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTutorial3/ECGTutorial/ECGTutorial.vcxproj.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTutorial3/ECGTutorial/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTutorial4/ECGTutorial.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTutorial4/ECGTutorial/ECGTutorial.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTutorial4/ECGTutorial/ECGTutorial.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTutorial4/ECGTutorial/ECGTutorial.vcxproj.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTutorial4/ECGTutorial/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTutorial5/ECGTutorial.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTutorial5/ECGTutorial/ECGTutorial.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTutorial5/ECGTutorial/ECGTutorial.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTutorial5/ECGTutorial/ECGTutorial.vcxproj.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTutorial5/ECGTutorial/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTutorial6/ECGTutorial.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTutorial6/ECGTutorial/ECGTutorial.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTutorial6/ECGTutorial/ECGTutorial.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTutorial6/ECGTutorial/ECGTutorial.vcxproj.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTutorial6/ECGTutorial/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTutorial7/ECGTutorial.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTutorial7/ECGTutorial/ECGTutorial.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTutorial7/ECGTutorial/ECGTutorial.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTutorial7/ECGTutorial/ECGTutorial.vcxproj.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/ECGTutorial7/ECGTutorial/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/.idea/T1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/ECGTutorial.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/ECGTutorial.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/ECGTutorial.vcxproj.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/cmake-build-debug/CMakeFiles/3.13.4/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/cmake-build-debug/CMakeFiles/3.13.4/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/cmake-build-debug/CMakeFiles/3.13.4/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/cmake-build-debug/CMakeFiles/3.13.4/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/cmake-build-debug/CMakeFiles/T1.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/cmake-build-debug/CMakeFiles/T1.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/cmake-build-debug/CMakeFiles/T1.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/cmake-build-debug/CMakeFiles/T1.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/cmake-build-debug/CMakeFiles/T1.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/cmake-build-debug/CMakeFiles/T1.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/cmake-build-debug/CMakeFiles/T1.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/cmake-build-debug/CMakeFiles/T1.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/cmake-build-debug/CMakeFiles/T1.dir/linklibs.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/cmake-build-debug/CMakeFiles/T1.dir/main.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/cmake-build-debug/CMakeFiles/T1.dir/objects.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/cmake-build-debug/CMakeFiles/T1.dir/objects1.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/cmake-build-debug/CMakeFiles/T1.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/cmake-build-debug/T1.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/cmake-build-debug/T1.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T1/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/.idea/T2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/ECGTutorial.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/ECGTutorial.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/ECGTutorial.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/ECGTutorial.vcxproj.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/cmake-build-debug/CMakeFiles/3.13.4/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/cmake-build-debug/CMakeFiles/3.13.4/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/cmake-build-debug/CMakeFiles/3.13.4/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/cmake-build-debug/CMakeFiles/3.13.4/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/cmake-build-debug/CMakeFiles/T2.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/cmake-build-debug/CMakeFiles/T2.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/cmake-build-debug/CMakeFiles/T2.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/cmake-build-debug/CMakeFiles/T2.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/cmake-build-debug/CMakeFiles/T2.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/cmake-build-debug/CMakeFiles/T2.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/cmake-build-debug/CMakeFiles/T2.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/cmake-build-debug/CMakeFiles/T2.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/cmake-build-debug/CMakeFiles/T2.dir/linklibs.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/cmake-build-debug/CMakeFiles/T2.dir/main.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/cmake-build-debug/CMakeFiles/T2.dir/objects.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/cmake-build-debug/CMakeFiles/T2.dir/objects1.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/cmake-build-debug/CMakeFiles/T2.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/cmake-build-debug/T2.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/cmake-build-debug/T2.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T2/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/.idea/T3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/ECGTutorial.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/ECGTutorial.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/ECGTutorial.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/ECGTutorial.vcxproj.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/cmake-build-debug/CMakeFiles/3.13.4/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/cmake-build-debug/CMakeFiles/3.13.4/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/cmake-build-debug/CMakeFiles/3.13.4/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/cmake-build-debug/CMakeFiles/3.13.4/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/cmake-build-debug/CMakeFiles/Progress/1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/cmake-build-debug/CMakeFiles/Progress/count.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/cmake-build-debug/CMakeFiles/T3.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/cmake-build-debug/CMakeFiles/T3.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/cmake-build-debug/CMakeFiles/T3.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/cmake-build-debug/CMakeFiles/T3.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/cmake-build-debug/CMakeFiles/T3.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/cmake-build-debug/CMakeFiles/T3.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/cmake-build-debug/CMakeFiles/T3.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/cmake-build-debug/CMakeFiles/T3.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/cmake-build-debug/CMakeFiles/T3.dir/linklibs.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/cmake-build-debug/CMakeFiles/T3.dir/objects1.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/cmake-build-debug/CMakeFiles/T3.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/cmake-build-debug/T3.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T3/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/.idea/T4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/ECGTutorial.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/ECGTutorial.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/ECGTutorial.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/ECGTutorial.vcxproj.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/cmake-build-debug/CMakeFiles/3.13.4/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/cmake-build-debug/CMakeFiles/3.13.4/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/cmake-build-debug/CMakeFiles/3.13.4/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/cmake-build-debug/CMakeFiles/3.13.4/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/cmake-build-debug/CMakeFiles/Progress/1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/cmake-build-debug/CMakeFiles/Progress/count.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/cmake-build-debug/CMakeFiles/T4.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/cmake-build-debug/CMakeFiles/T4.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/cmake-build-debug/CMakeFiles/T4.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/cmake-build-debug/CMakeFiles/T4.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/cmake-build-debug/CMakeFiles/T4.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/cmake-build-debug/CMakeFiles/T4.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/cmake-build-debug/CMakeFiles/T4.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/cmake-build-debug/CMakeFiles/T4.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/cmake-build-debug/CMakeFiles/T4.dir/linklibs.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/cmake-build-debug/CMakeFiles/T4.dir/objects1.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/cmake-build-debug/CMakeFiles/T4.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/cmake-build-debug/T4.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T4/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/.idea/T5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/ECGTutorial.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/ECGTutorial.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/ECGTutorial.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/ECGTutorial.vcxproj.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/cmake-build-debug/CMakeFiles/3.13.4/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/cmake-build-debug/CMakeFiles/3.13.4/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/cmake-build-debug/CMakeFiles/3.13.4/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/cmake-build-debug/CMakeFiles/3.13.4/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/cmake-build-debug/CMakeFiles/T5.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/cmake-build-debug/CMakeFiles/T5.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/cmake-build-debug/CMakeFiles/T5.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/cmake-build-debug/CMakeFiles/T5.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/cmake-build-debug/CMakeFiles/T5.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/cmake-build-debug/CMakeFiles/T5.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/cmake-build-debug/CMakeFiles/T5.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/cmake-build-debug/CMakeFiles/T5.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/cmake-build-debug/CMakeFiles/T5.dir/linklibs.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/cmake-build-debug/CMakeFiles/T5.dir/main.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/cmake-build-debug/CMakeFiles/T5.dir/objects.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/cmake-build-debug/CMakeFiles/T5.dir/objects1.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/cmake-build-debug/CMakeFiles/T5.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/cmake-build-debug/T5.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/cmake-build-debug/T5.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/T5/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/cmake-build-debug/CMakeFiles/3.13.4/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/cmake-build-debug/CMakeFiles/3.13.4/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/W1/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vorlesungsfolien/ECG_SS18_01_Mathe4Modellierung.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vorlesungsfolien/ECG_SS18_02_Intro2Modellierung.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vorlesungsfolien/ECG_SS18_03_Rasterisierung.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vorlesungsfolien/ECG_SS18_04_Transformationen.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vorlesungsfolien/ECG_SS18_05_Graphikprogrammierung.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vorlesungsfolien/ECG_SS18_06_Kurven.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vorlesungsfolien/ECG_SS18_07_Beleuchtung.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vorlesungsfolien/ECG_SS18_08_Raytracing.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vorlesungsfolien/ECG_SS19_00_Intro.pdf" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,16 +352,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/ECG.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-      </list>
-    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="960" />
@@ -59,10 +380,10 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Uebungen/ecg_tree" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Background" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -86,23 +407,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556721349261</updated>
-      <workItem from="1556721350449" duration="84000" />
+      <workItem from="1556721350449" duration="305000" />
     </task>
+    <task id="LOCAL-00001" summary="Ecg addded">
+      <created>1556721508032</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1556721508032</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84000" />
+    <option name="totallyTimeSpent" value="305000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="960" height="1040" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.119936034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" visible="true" weight="0.32900432" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -118,5 +447,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ecg addded" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ecg addded" />
   </component>
 </project>
