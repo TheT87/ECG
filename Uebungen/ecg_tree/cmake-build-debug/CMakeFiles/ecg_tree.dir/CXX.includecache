@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Zeug/Uni/S2/ECG/Uebungen/ecg_tree/src/main.cpp
+iostream
+-
+vector
+-
+node.h
+D:/Zeug/Uni/S2/ECG/Uebungen/ecg_tree/src/node.h
+node.cpp
+D:/Zeug/Uni/S2/ECG/Uebungen/ecg_tree/src/node.cpp
+
+D:/Zeug/Uni/S2/ECG/Uebungen/ecg_tree/src/node.cpp
+node.h
+D:/Zeug/Uni/S2/ECG/Uebungen/ecg_tree/src/node.h
+string
+-
+vector
+-
+iostream
+-
+
+D:/Zeug/Uni/S2/ECG/Uebungen/ecg_tree/src/node.h
+string
+-
+vector
+-
+
