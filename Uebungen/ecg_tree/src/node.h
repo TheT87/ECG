@@ -8,28 +8,30 @@
 
 #include <string>
 #include <vector>
+
+
 using namespace std;
 
-class node {
+class Node {
 
 private:
     string name;
-    vector<node *> children;
+    vector<Node *> children;
+
 
 public:
-    node(string name);
-    virtual ~node();
+    Node(const string &name,int indent);
+    virtual ~Node();
 
 
-    void set_Name(std::string new_name);
-
+    void set_Name(string new_name);
     string get_Name();
 
     int get_nr_children();
-
-    void add_child(node *child);
-
-    node* get_child(int i);
+    void add_child(Node *child);
+    Node* get_child(int i);
+    void create_complete_tree(int nr_child_Node, int tree_depth);
+    string print(Node* Node1, int indent);
 
 };
 #endif //LIST_NODE_H

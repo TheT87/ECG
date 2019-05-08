@@ -8,12 +8,9 @@
 int main() {
 
 
-    node *root = new node("root");
-    root->add_child(new node("left child"));
-    root->add_child(new node("right child"));
-
-
-
+    Node *root = new Node("",0);
+    root->create_complete_tree(2, 4);
     delete root;
+
 
 }

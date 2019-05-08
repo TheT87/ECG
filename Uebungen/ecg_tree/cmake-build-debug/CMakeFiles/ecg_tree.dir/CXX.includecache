@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+D:/Zeug/Uni/S2/ECG/Uebungen/ecg_tree/src/Node.h
+string
+-
+vector
+-
+
 D:/Zeug/Uni/S2/ECG/Uebungen/ecg_tree/src/main.cpp
 iostream
 -
@@ -17,13 +23,17 @@ node.cpp
 D:/Zeug/Uni/S2/ECG/Uebungen/ecg_tree/src/node.cpp
 
 D:/Zeug/Uni/S2/ECG/Uebungen/ecg_tree/src/node.cpp
-node.h
-D:/Zeug/Uni/S2/ECG/Uebungen/ecg_tree/src/node.h
-string
--
+Node.h
+D:/Zeug/Uni/S2/ECG/Uebungen/ecg_tree/src/Node.h
 vector
 -
 iostream
+-
+sstream
+-
+algorithm
+-
+queue
 -
 
 D:/Zeug/Uni/S2/ECG/Uebungen/ecg_tree/src/node.h
