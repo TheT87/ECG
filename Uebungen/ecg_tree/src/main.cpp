@@ -6,10 +6,11 @@
 
 
 int main() {
+    Node node("");
 
-
-    Node *root = new Node("",0);
-    root->create_complete_tree(2, 4);
+    Node *root = new Node((""));
+    root->create_complete_tree(2,4);
+    cout<<root;
     delete root;
 
 

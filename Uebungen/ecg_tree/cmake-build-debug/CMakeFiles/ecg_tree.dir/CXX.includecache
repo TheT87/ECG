@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-D:/Zeug/Uni/S2/ECG/Uebungen/ecg_tree/src/Node.h
-string
--
-vector
--
-
 D:/Zeug/Uni/S2/ECG/Uebungen/ecg_tree/src/main.cpp
 iostream
 -
@@ -23,8 +17,8 @@ node.cpp
 D:/Zeug/Uni/S2/ECG/Uebungen/ecg_tree/src/node.cpp
 
 D:/Zeug/Uni/S2/ECG/Uebungen/ecg_tree/src/node.cpp
-Node.h
-D:/Zeug/Uni/S2/ECG/Uebungen/ecg_tree/src/Node.h
+node.h
+D:/Zeug/Uni/S2/ECG/Uebungen/ecg_tree/src/node.h
 vector
 -
 iostream
@@ -34,6 +28,8 @@ sstream
 algorithm
 -
 queue
+-
+sstream
 -
 
 D:/Zeug/Uni/S2/ECG/Uebungen/ecg_tree/src/node.h

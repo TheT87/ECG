@@ -16,22 +16,24 @@ class Node {
 
 private:
     string name;
-    vector<Node *> children;
-
+    vector<Node*> children;
 
 public:
-    Node(const string &name,int indent);
+
+    Node(const string &name);
     virtual ~Node();
 
+    string print(ostream &str,Node &node);
+    friend ostream &operator<<(ostream &os, Node &node);
 
     void set_Name(string new_name);
     string get_Name();
-
     int get_nr_children();
     void add_child(Node *child);
     Node* get_child(int i);
     void create_complete_tree(int nr_child_Node, int tree_depth);
-    string print(Node* Node1, int indent);
+
+
 
 };
 #endif //LIST_NODE_H
