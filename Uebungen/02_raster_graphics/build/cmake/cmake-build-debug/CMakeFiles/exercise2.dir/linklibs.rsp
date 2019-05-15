@@ -1,0 +1,1 @@
+-lopengl32 -lglu32 "C:/Program Files/Haskell Platform/8.6.3/mingw/lib/libglut32.a" -lpthread -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
