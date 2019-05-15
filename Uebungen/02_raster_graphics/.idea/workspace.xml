@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated>
-      <config projectName="exercise2" targetName="exercise2" />
-    </generated>
+    <generated />
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
@@ -12,32 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44291f42-909d-4498-ae2f-0cc85662e98e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/02_raster_graphics.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Theorie/Aufgabenkomplex1_Modellierung (2).pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencies/freeglut/include/GL/freeglut.h" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/freeglut/include/GL/freeglut.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencies/freeglut/include/GL/freeglut_ext.h" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/freeglut/include/GL/freeglut_ext.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencies/freeglut/include/GL/freeglut_std.h" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/freeglut/include/GL/freeglut_std.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencies/freeglut/include/GL/glut.h" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/freeglut/include/GL/glut.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/GL/freeglut.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/GL/freeglut.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/GL/freeglut_ext.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/GL/freeglut_ext.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/GL/freeglut_std.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/GL/freeglut_std.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/GL/glut.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/GL/glut.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ecg_tree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ecg_tree/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ecg_tree/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../ecg_tree/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ecg_tree/cmake-build-debug/CMakeFiles/ecg_tree.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../ecg_tree/cmake-build-debug/CMakeFiles/ecg_tree.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ecg_tree/cmake-build-debug/CMakeFiles/ecg_tree.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../ecg_tree/cmake-build-debug/CMakeFiles/ecg_tree.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ecg_tree/cmake-build-debug/CMakeFiles/ecg_tree.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../ecg_tree/cmake-build-debug/CMakeFiles/ecg_tree.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ecg_tree/cmake-build-debug/CMakeFiles/ecg_tree.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../ecg_tree/cmake-build-debug/CMakeFiles/ecg_tree.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ecg_tree/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../ecg_tree/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ecg_tree/cmake-build-debug/ecg_tree.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../ecg_tree/cmake-build-debug/ecg_tree.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ecg_tree/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../ecg_tree/src/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ecg_tree/src/node.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../ecg_tree/src/node.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ecg_tree/src/node.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ecg_tree/src/node.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/build/cmake/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,7 +23,6 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
@@ -73,24 +46,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane" />
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="exercise2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="D:\Zeug\Uni\S2\ECG\Uebungen\02_raster_graphics" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/build/cmake/CMakeLists.txt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -108,13 +71,6 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="exercise2" type="CMakeRunConfiguration" factoryName="Application" editBeforeRun="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="exercise2" TARGET_NAME="exercise2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="exercise2" RUN_TARGET_NAME="exercise2">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -127,11 +83,12 @@
       <updated>1557593914202</updated>
       <workItem from="1557593915500" duration="2448000" />
       <workItem from="1557771892490" duration="754000" />
+      <workItem from="1557952126445" duration="86000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3239000" />
+    <option name="totallyTimeSpent" value="3325000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -143,9 +100,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
+    <frame x="0" y="-1" width="1920" height="1040" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25248072" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25506938" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -160,7 +117,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32987553" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="CMake" order="12" />
+      <window_info active="true" anchor="bottom" id="CMake" order="12" visible="true" weight="0.32969433" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -207,11 +164,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/cmake/cmake-build-debug/exercise2.cbp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2436" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/build/cmake/cmake-build-debug/exercise2.cbp" />
     <entry file="file://$PROJECT_DIR$/dependencies/freeglut/include/GL/glut.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -253,12 +206,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/cmake/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="34" column="37" lean-forward="true" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/build/cmake/CMakeLists.txt" />
   </component>
 </project>
