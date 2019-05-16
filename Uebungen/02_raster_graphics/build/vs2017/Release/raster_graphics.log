@@ -1,0 +1,22 @@
+﻿  application.cpp
+  canvas_buffer.cpp
+  canvas_renderer.cpp
+  main.cpp
+  preview_renderer.cpp
+  bresenham_circle_tool.cpp
+  bresenham_line_tool.cpp
+  dda_line_tool.cpp
+  line_fill_tool.cpp
+  non_recursive_fill_tool.cpp
+  pen_tool.cpp
+  rectangle_tool.cpp
+  recursive_fill_tool.cpp
+  tool_base.cpp
+  Code wird generiert.
+  Previous IPDB not found, fall back to full compilation.
+  All 549 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Codegenerierung ist abgeschlossen.
+  raster_graphics.vcxproj -> D:\Downloads\Sonstiges\02_raster_graphics\build\vs2017\Release\raster_graphics.exe
+  Copy freeglut .dll to executable location
+  ..\..\dependencies\freeglut\lib\freeglut.dll
+  1 Datei(en) kopiert

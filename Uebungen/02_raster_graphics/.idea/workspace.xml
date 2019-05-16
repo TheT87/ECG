@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated />
+    <generated>
+      <config projectName="exercise2" targetName="exercise2" />
+    </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
@@ -10,8 +12,174 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44291f42-909d-4498-ae2f-0cc85662e98e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.vs/02_raster_graphics/v16/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/02_raster_graphics/v16/Browse.VC.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/02_raster_graphics/v16/ipch/AutoPCH/b559d0c45bc7ef2f/APPLICATION.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/02_raster_graphics/v16/ipch/AutoPCH/f5e47cbb46b0eb96/MAIN.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/ProjectSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/solution/v16/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/cmake/.vs/ProjectSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/cmake/.vs/VSWorkspaceState.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/cmake/.vs/cmake/v16/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/cmake/.vs/cmake/v16/Browse.VC.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/cmake/.vs/launch.vs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/cmake/.vs/slnx.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/cmake/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/cmake/CMakeSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/cmake/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/cmake/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/cmake/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/cmake/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/cmake/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/cmake/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/cmake/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/cmake/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/cmake/cmake-build-debug/CMakeFiles/exercise2.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/cmake/cmake-build-debug/CMakeFiles/exercise2.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/cmake/cmake-build-debug/CMakeFiles/exercise2.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/cmake/cmake-build-debug/CMakeFiles/exercise2.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/cmake/cmake-build-debug/CMakeFiles/exercise2.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/cmake/cmake-build-debug/CMakeFiles/exercise2.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/cmake/cmake-build-debug/CMakeFiles/exercise2.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/cmake/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/cmake/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/cmake/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/cmake/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/cmake/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/cmake/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/cmake/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/cmake/cmake-build-debug/exercise2.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2012/.vs/raster_graphics/v16/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2012/.vs/raster_graphics/v16/Browse.VC.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2012/Debug/application.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2012/Debug/bresenham_circle_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2012/Debug/bresenham_line_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2012/Debug/canvas_buffer.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2012/Debug/canvas_renderer.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2012/Debug/dda_line_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2012/Debug/line_fill_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2012/Debug/main.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2012/Debug/non_recursive_fill_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2012/Debug/pen_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2012/Debug/preview_renderer.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2012/Debug/raster_graphics.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2012/Debug/raster_graphics.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2012/Debug/raster_graphics.tlog/CL.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2012/Debug/raster_graphics.tlog/CL.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2012/Debug/raster_graphics.tlog/CL.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2012/Debug/raster_graphics.tlog/link-cvtres.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2012/Debug/raster_graphics.tlog/link-cvtres.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2012/Debug/raster_graphics.tlog/link-rc.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2012/Debug/raster_graphics.tlog/link-rc.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2012/Debug/raster_graphics.tlog/link.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2012/Debug/raster_graphics.tlog/link.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2012/Debug/raster_graphics.tlog/link.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2012/Debug/raster_graphics.tlog/raster_graphics.lastbuildstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2012/Debug/raster_graphics.tlog/unsuccessfulbuild" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2012/Debug/rectangle_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2012/Debug/recursive_fill_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2012/Debug/tool_base.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2012/Debug/vc142.idb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2012/Debug/vc142.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2012/raster_graphics.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2012/raster_graphics.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2012/raster_graphics.vcxproj.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2015/raster_graphics.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2015/raster_graphics.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/.vs/raster_graphics/v16/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/.vs/raster_graphics/v16/Browse.VC.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/.vs/raster_graphics/v16/ipch/AutoPCH/2ec77a01bb8aa979/LINE_FILL_TOOL.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/.vs/raster_graphics/v16/ipch/AutoPCH/3879eb6857359273/SWEEP_LINE_TOOL.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/.vs/raster_graphics/v16/ipch/AutoPCH/432e7c77f5e28c5e/RECTANGLE_TOOL.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/.vs/raster_graphics/v16/ipch/AutoPCH/51ff1231ea1648d/NON_RECURSIVE_FILL_TOOL.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/.vs/raster_graphics/v16/ipch/AutoPCH/6e5c5719be97a722/APPLICATION.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/.vs/raster_graphics/v16/ipch/AutoPCH/7b1d908831c780ea/TOOL_BASE.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/.vs/raster_graphics/v16/ipch/AutoPCH/82d9d45afbfb903f/BRESENHAM_LINE_TOOL.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/.vs/raster_graphics/v16/ipch/AutoPCH/98554978ed21828b/BRESENHAM_CIRCLE_TOOL.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/.vs/raster_graphics/v16/ipch/AutoPCH/9d7e735dd0a60cdf/SWEEPLINE_TOOL.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/.vs/raster_graphics/v16/ipch/AutoPCH/b0cb0ce55effb0d4/PEN_TOOL.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/.vs/raster_graphics/v16/ipch/AutoPCH/be41164da16b79e7/DDA_LINE_TOOL.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/.vs/raster_graphics/v16/ipch/AutoPCH/d962808452d6ff3f/CANVAS_BUFFER.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/.vs/raster_graphics/v16/ipch/AutoPCH/dbc75d839f43e260/SWEEP_LINE_TOOL.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/.vs/raster_graphics/v16/ipch/AutoPCH/dcdbaeff398d9602/APPLICATION.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/.vs/raster_graphics/v16/ipch/AutoPCH/e35e7e0cb8d1dc23/MAIN.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/.vs/raster_graphics/v16/ipch/AutoPCH/e4675e382a3dfcfd/RECURSIVE_FILL_TOOL.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/.vs/raster_graphics/v16/ipch/AutoPCH/e6ddca3ec90f952/CANVAS_RENDERER.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/.vs/raster_graphics/v16/ipch/AutoPCH/ecae4aa24948ddec/SWEEPLINE_TOOL.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/.vs/raster_graphics/v16/ipch/AutoPCH/f505db0be9cfb03/MAIN.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Debug/application.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Debug/bresenham_circle_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Debug/bresenham_line_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Debug/canvas_buffer.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Debug/canvas_renderer.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Debug/dda_line_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Debug/freeglut.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Debug/line_fill_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Debug/main.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Debug/non_recursive_fill_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Debug/pen_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Debug/preview_renderer.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Debug/raster_graphics.Build.CppClean.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Debug/raster_graphics.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Debug/raster_graphics.ilk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Debug/raster_graphics.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Debug/raster_graphics.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Debug/raster_graphics.tlog/CL.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Debug/raster_graphics.tlog/CL.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Debug/raster_graphics.tlog/CL.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Debug/raster_graphics.tlog/link.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Debug/raster_graphics.tlog/link.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Debug/raster_graphics.tlog/link.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Debug/raster_graphics.tlog/raster_graphics.lastbuildstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Debug/raster_graphics.tlog/unsuccessfulbuild" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Debug/raster_graphics.vcxproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Debug/rectangle_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Debug/recursive_fill_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Debug/sweep_line_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Debug/tool_base.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Debug/vc142.idb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Debug/vc142.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Release/application.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Release/bresenham_circle_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Release/bresenham_line_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Release/canvas_buffer.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Release/canvas_renderer.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Release/dda_line_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Release/freeglut.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Release/line_fill_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Release/main.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Release/non_recursive_fill_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Release/pen_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Release/preview_renderer.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Release/raster_graphics.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Release/raster_graphics.iobj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Release/raster_graphics.ipdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Release/raster_graphics.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Release/raster_graphics.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Release/raster_graphics.tlog/CL.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Release/raster_graphics.tlog/CL.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Release/raster_graphics.tlog/CL.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Release/raster_graphics.tlog/link.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Release/raster_graphics.tlog/link.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Release/raster_graphics.tlog/link.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Release/raster_graphics.tlog/raster_graphics.lastbuildstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Release/raster_graphics.tlog/raster_graphics.write.1u.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Release/rectangle_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Release/recursive_fill_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Release/tool_base.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/Release/vc142.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/raster_graphics.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/raster_graphics.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/raster_graphics.vcxproj.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/sweep_line_tool.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vs2017/sweep_line_tool.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cmake/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/cmake/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recursive_fill_tool.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/recursive_fill_tool.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/build/cmake/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,6 +191,29 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/recursive_fill_tool.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/canvas_buffer.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
@@ -31,6 +222,7 @@
       <list>
         <option value="$PROJECT_DIR$/include/application.h" />
         <option value="$PROJECT_DIR$/build/cmake/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/recursive_fill_tool.cpp" />
       </list>
     </option>
   </component>
@@ -46,8 +238,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="exercise2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="exercise2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="dependencies" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="exercise2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -71,6 +283,13 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="exercise2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="exercise2" TARGET_NAME="exercise2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="exercise2" RUN_TARGET_NAME="exercise2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -84,11 +303,14 @@
       <workItem from="1557593915500" duration="2448000" />
       <workItem from="1557771892490" duration="754000" />
       <workItem from="1557952126445" duration="86000" />
+      <workItem from="1557952577431" duration="65000" />
+      <workItem from="1557984214733" duration="758000" />
+      <workItem from="1557990116493" duration="307000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3325000" />
+    <option name="totallyTimeSpent" value="4455000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -101,23 +323,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1040" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25506938" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26307365" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32969433" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32987553" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.32987553" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32969433" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32987553" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info active="true" anchor="bottom" id="CMake" order="12" visible="true" weight="0.32969433" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.3293348" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -207,5 +430,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/cmake/CMakeLists.txt" />
+    <entry file="file://$PROJECT_DIR$/src/recursive_fill_tool.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/canvas_buffer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

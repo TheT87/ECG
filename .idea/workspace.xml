@@ -9,7 +9,186 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c375b4f1-37c9-4060-982c-341cd022df8a" name="Default Changelist" comment="" />
+    <list default="true" id="c375b4f1-37c9-4060-982c-341cd022df8a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/.vs/02_raster_graphics/v16/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/.vs/02_raster_graphics/v16/Browse.VC.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/.vs/02_raster_graphics/v16/ipch/AutoPCH/b559d0c45bc7ef2f/APPLICATION.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/.vs/02_raster_graphics/v16/ipch/AutoPCH/f5e47cbb46b0eb96/MAIN.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/.vs/ProjectSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/.vs/VSWorkspaceState.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/.vs/slnx.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/.vs/solution/v16/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/.vs/ProjectSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/.vs/VSWorkspaceState.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/.vs/cmake/v16/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/.vs/cmake/v16/Browse.VC.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/.vs/launch.vs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/.vs/slnx.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/CMakeSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/CMakeFiles/3.14.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/CMakeFiles/3.14.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/CMakeFiles/3.14.3/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/CMakeFiles/3.14.3/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/CMakeFiles/exercise2.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/CMakeFiles/exercise2.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/CMakeFiles/exercise2.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/CMakeFiles/exercise2.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/CMakeFiles/exercise2.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/CMakeFiles/exercise2.dir/includes_CXX.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/CMakeFiles/exercise2.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/CMakeFiles/exercise2.dir/linklibs.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/CMakeFiles/exercise2.dir/objects1.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/CMakeFiles/exercise2.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/exercise2.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2012/.vs/raster_graphics/v16/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2012/.vs/raster_graphics/v16/Browse.VC.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2012/Debug/application.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2012/Debug/bresenham_circle_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2012/Debug/bresenham_line_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2012/Debug/canvas_buffer.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2012/Debug/canvas_renderer.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2012/Debug/dda_line_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2012/Debug/line_fill_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2012/Debug/main.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2012/Debug/non_recursive_fill_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2012/Debug/pen_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2012/Debug/preview_renderer.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2012/Debug/raster_graphics.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2012/Debug/raster_graphics.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2012/Debug/raster_graphics.tlog/CL.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2012/Debug/raster_graphics.tlog/CL.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2012/Debug/raster_graphics.tlog/CL.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2012/Debug/raster_graphics.tlog/link-cvtres.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2012/Debug/raster_graphics.tlog/link-cvtres.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2012/Debug/raster_graphics.tlog/link-rc.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2012/Debug/raster_graphics.tlog/link-rc.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2012/Debug/raster_graphics.tlog/link.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2012/Debug/raster_graphics.tlog/link.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2012/Debug/raster_graphics.tlog/link.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2012/Debug/raster_graphics.tlog/raster_graphics.lastbuildstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2012/Debug/raster_graphics.tlog/unsuccessfulbuild" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2012/Debug/rectangle_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2012/Debug/recursive_fill_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2012/Debug/tool_base.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2012/Debug/vc142.idb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2012/Debug/vc142.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2012/raster_graphics.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2012/raster_graphics.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2012/raster_graphics.vcxproj.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2015/raster_graphics.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2015/raster_graphics.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/.vs/raster_graphics/v16/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/.vs/raster_graphics/v16/Browse.VC.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/.vs/raster_graphics/v16/ipch/AutoPCH/2ec77a01bb8aa979/LINE_FILL_TOOL.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/.vs/raster_graphics/v16/ipch/AutoPCH/3879eb6857359273/SWEEP_LINE_TOOL.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/.vs/raster_graphics/v16/ipch/AutoPCH/432e7c77f5e28c5e/RECTANGLE_TOOL.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/.vs/raster_graphics/v16/ipch/AutoPCH/51ff1231ea1648d/NON_RECURSIVE_FILL_TOOL.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/.vs/raster_graphics/v16/ipch/AutoPCH/6e5c5719be97a722/APPLICATION.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/.vs/raster_graphics/v16/ipch/AutoPCH/7b1d908831c780ea/TOOL_BASE.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/.vs/raster_graphics/v16/ipch/AutoPCH/82d9d45afbfb903f/BRESENHAM_LINE_TOOL.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/.vs/raster_graphics/v16/ipch/AutoPCH/98554978ed21828b/BRESENHAM_CIRCLE_TOOL.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/.vs/raster_graphics/v16/ipch/AutoPCH/9d7e735dd0a60cdf/SWEEPLINE_TOOL.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/.vs/raster_graphics/v16/ipch/AutoPCH/b0cb0ce55effb0d4/PEN_TOOL.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/.vs/raster_graphics/v16/ipch/AutoPCH/be41164da16b79e7/DDA_LINE_TOOL.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/.vs/raster_graphics/v16/ipch/AutoPCH/d962808452d6ff3f/CANVAS_BUFFER.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/.vs/raster_graphics/v16/ipch/AutoPCH/dbc75d839f43e260/SWEEP_LINE_TOOL.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/.vs/raster_graphics/v16/ipch/AutoPCH/dcdbaeff398d9602/APPLICATION.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/.vs/raster_graphics/v16/ipch/AutoPCH/e35e7e0cb8d1dc23/MAIN.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/.vs/raster_graphics/v16/ipch/AutoPCH/e4675e382a3dfcfd/RECURSIVE_FILL_TOOL.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/.vs/raster_graphics/v16/ipch/AutoPCH/e6ddca3ec90f952/CANVAS_RENDERER.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/.vs/raster_graphics/v16/ipch/AutoPCH/ecae4aa24948ddec/SWEEPLINE_TOOL.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/.vs/raster_graphics/v16/ipch/AutoPCH/f505db0be9cfb03/MAIN.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Debug/application.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Debug/bresenham_circle_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Debug/bresenham_line_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Debug/canvas_buffer.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Debug/canvas_renderer.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Debug/dda_line_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Debug/freeglut.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Debug/line_fill_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Debug/main.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Debug/non_recursive_fill_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Debug/pen_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Debug/preview_renderer.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Debug/raster_graphics.Build.CppClean.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Debug/raster_graphics.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Debug/raster_graphics.ilk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Debug/raster_graphics.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Debug/raster_graphics.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Debug/raster_graphics.tlog/CL.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Debug/raster_graphics.tlog/CL.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Debug/raster_graphics.tlog/CL.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Debug/raster_graphics.tlog/link.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Debug/raster_graphics.tlog/link.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Debug/raster_graphics.tlog/link.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Debug/raster_graphics.tlog/raster_graphics.lastbuildstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Debug/raster_graphics.tlog/unsuccessfulbuild" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Debug/raster_graphics.vcxproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Debug/rectangle_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Debug/recursive_fill_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Debug/sweep_line_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Debug/tool_base.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Debug/vc142.idb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Debug/vc142.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Release/application.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Release/bresenham_circle_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Release/bresenham_line_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Release/canvas_buffer.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Release/canvas_renderer.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Release/dda_line_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Release/freeglut.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Release/line_fill_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Release/main.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Release/non_recursive_fill_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Release/pen_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Release/preview_renderer.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Release/raster_graphics.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Release/raster_graphics.iobj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Release/raster_graphics.ipdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Release/raster_graphics.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Release/raster_graphics.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Release/raster_graphics.tlog/CL.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Release/raster_graphics.tlog/CL.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Release/raster_graphics.tlog/CL.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Release/raster_graphics.tlog/link.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Release/raster_graphics.tlog/link.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Release/raster_graphics.tlog/link.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Release/raster_graphics.tlog/raster_graphics.lastbuildstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Release/raster_graphics.tlog/raster_graphics.write.1u.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Release/rectangle_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Release/recursive_fill_tool.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Release/tool_base.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/Release/vc142.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/raster_graphics.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/raster_graphics.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/raster_graphics.vcxproj.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/sweep_line_tool.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/vs2017/sweep_line_tool.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/solution.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +229,40 @@
               <item name="Uebungen" type="462c0819:PsiDirectoryNode" />
               <item name="02_raster_graphics" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ECG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ECG" type="462c0819:PsiDirectoryNode" />
+              <item name="Uebungen" type="462c0819:PsiDirectoryNode" />
+              <item name="02_raster_graphics" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ECG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ECG" type="462c0819:PsiDirectoryNode" />
+              <item name="Uebungen" type="462c0819:PsiDirectoryNode" />
+              <item name="02_raster_graphics" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ECG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ECG" type="462c0819:PsiDirectoryNode" />
+              <item name="Uebungen" type="462c0819:PsiDirectoryNode" />
+              <item name="02_raster_graphics" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ECG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ECG" type="462c0819:PsiDirectoryNode" />
+              <item name="Uebungen" type="462c0819:PsiDirectoryNode" />
+              <item name="02_raster_graphics" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
+              <item name="CMakeFiles" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -89,6 +302,7 @@
       <updated>1556721349261</updated>
       <workItem from="1556721350449" duration="305000" />
       <workItem from="1557951958196" duration="151000" />
+      <workItem from="1557952355133" duration="215000" />
     </task>
     <task id="LOCAL-00001" summary="Ecg addded">
       <created>1556721508032</created>
@@ -97,16 +311,23 @@
       <option name="project" value="LOCAL" />
       <updated>1556721508032</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fixing unversioned files">
+      <created>1557952533369</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1557952533369</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="456000" />
+    <option name="totallyTimeSpent" value="671000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1040" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12113127" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12219851" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -117,9 +338,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4994664" visible="true" weight="0.32969433" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.49839914" visible="true" weight="0.3286026" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053364" side_tool="true" visible="true" weight="0.32969433" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50160086" side_tool="true" visible="true" weight="0.3286026" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -131,6 +352,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ecg addded" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ecg addded" />
+    <MESSAGE value="fixing unversioned files" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing unversioned files" />
   </component>
 </project>

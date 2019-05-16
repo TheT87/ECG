@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="exercise2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise2">
+				<Option output="/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/exercise2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/build/cmake/../../include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise2/fast">
+				<Option output="/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/exercise2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/build/cmake/../../include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/include/application.h">
+			<Option target="exercise2"/>
+		</Unit>
+		<Unit filename="/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/include/bresenham_circle_tool.h">
+			<Option target="exercise2"/>
+		</Unit>
+		<Unit filename="/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/include/bresenham_line_tool.h">
+			<Option target="exercise2"/>
+		</Unit>
+		<Unit filename="/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/include/canvas_buffer.h">
+			<Option target="exercise2"/>
+		</Unit>
+		<Unit filename="/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/include/canvas_renderer.h">
+			<Option target="exercise2"/>
+		</Unit>
+		<Unit filename="/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/include/dda_line_tool.h">
+			<Option target="exercise2"/>
+		</Unit>
+		<Unit filename="/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/include/line_fill_tool.h">
+			<Option target="exercise2"/>
+		</Unit>
+		<Unit filename="/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/include/non_recursive_fill_tool.h">
+			<Option target="exercise2"/>
+		</Unit>
+		<Unit filename="/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/include/pen_tool.h">
+			<Option target="exercise2"/>
+		</Unit>
+		<Unit filename="/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/include/preview_renderer.h">
+			<Option target="exercise2"/>
+		</Unit>
+		<Unit filename="/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/include/rectangle_tool.h">
+			<Option target="exercise2"/>
+		</Unit>
+		<Unit filename="/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/include/recursive_fill_tool.h">
+			<Option target="exercise2"/>
+		</Unit>
+		<Unit filename="/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/include/tiny_vec.h">
+			<Option target="exercise2"/>
+		</Unit>
+		<Unit filename="/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/include/tool_base.h">
+			<Option target="exercise2"/>
+		</Unit>
+		<Unit filename="/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/src/application.cpp">
+			<Option target="exercise2"/>
+		</Unit>
+		<Unit filename="/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/src/bresenham_circle_tool.cpp">
+			<Option target="exercise2"/>
+		</Unit>
+		<Unit filename="/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/src/bresenham_line_tool.cpp">
+			<Option target="exercise2"/>
+		</Unit>
+		<Unit filename="/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/src/canvas_buffer.cpp">
+			<Option target="exercise2"/>
+		</Unit>
+		<Unit filename="/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/src/canvas_renderer.cpp">
+			<Option target="exercise2"/>
+		</Unit>
+		<Unit filename="/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/src/dda_line_tool.cpp">
+			<Option target="exercise2"/>
+		</Unit>
+		<Unit filename="/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/src/line_fill_tool.cpp">
+			<Option target="exercise2"/>
+		</Unit>
+		<Unit filename="/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/src/main.cpp">
+			<Option target="exercise2"/>
+		</Unit>
+		<Unit filename="/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/src/non_recursive_fill_tool.cpp">
+			<Option target="exercise2"/>
+		</Unit>
+		<Unit filename="/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/src/pen_tool.cpp">
+			<Option target="exercise2"/>
+		</Unit>
+		<Unit filename="/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/src/preview_renderer.cpp">
+			<Option target="exercise2"/>
+		</Unit>
+		<Unit filename="/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/src/rectangle_tool.cpp">
+			<Option target="exercise2"/>
+		</Unit>
+		<Unit filename="/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/src/recursive_fill_tool.cpp">
+			<Option target="exercise2"/>
+		</Unit>
+		<Unit filename="/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/src/tool_base.cpp">
+			<Option target="exercise2"/>
+		</Unit>
+		<Unit filename="/home/tobi/Uni/ECG/Uebungen/02_raster_graphics/build/cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

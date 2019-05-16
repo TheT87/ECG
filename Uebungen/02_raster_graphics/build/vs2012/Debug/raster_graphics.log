@@ -1,0 +1,26 @@
+﻿cl : Befehlszeile warning D9035: Die Option "Gm" ist veraltet und wird in einer der nächsten Versionen entfernt.
+  tool_base.cpp
+  recursive_fill_tool.cpp
+  rectangle_tool.cpp
+  pen_tool.cpp
+  non_recursive_fill_tool.cpp
+  line_fill_tool.cpp
+  dda_line_tool.cpp
+  bresenham_line_tool.cpp
+  bresenham_circle_tool.cpp
+  preview_renderer.cpp
+  main.cpp
+  canvas_renderer.cpp
+  canvas_buffer.cpp
+  application.cpp
+  Code wird generiert...
+application.obj : warning LNK4075: /EDITANDCONTINUE wird aufgrund der Angabe von /SAFESEH ignoriert.
+LINK : warning LNK4098: Standardbibliothek "LIBCMT" steht in Konflikt mit anderen Bibliotheken; /NODEFAULTLIB:Bibliothek verwenden.
+freeglut_static.lib(fg_init.obj) : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "_sscanf" in Funktion "_fghParseCommandLineArguments".
+freeglut_static.lib(fg_gamemode.obj) : error LNK2001: Nicht aufgelöstes externes Symbol "_sscanf".
+freeglut_static.lib(fg_main.obj) : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "___iob_func" in Funktion "_fgError".
+freeglut_static.lib(fg_display.obj) : error LNK2001: Nicht aufgelöstes externes Symbol "___iob_func".
+freeglut_static.lib(fg_main.obj) : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "_vfprintf" in Funktion "_fgError".
+freeglut_static.lib(fg_gamemode_mswin.obj) : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "_sprintf" in Funktion "_fghChangeDisplayMode".
+freeglut_static.lib(fg_joystick_mswin.obj) : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "__snprintf" in Funktion "_fghJoystickGetOEMProductName".
+D:\Downloads\Sonstiges\02_raster_graphics\build\vs2012\Debug\raster_graphics.exe : fatal error LNK1120: 5 nicht aufgelöste Externe

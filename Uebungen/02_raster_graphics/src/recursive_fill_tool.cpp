@@ -19,9 +19,9 @@ recursive_fill_tool::recursive_fill_tool(canvas_buffer& canvas): tool_base(canva
 void recursive_fill_tool::draw(int x, int y)
 {
 	/************
-    Aufgabe 3.2.1. Implementieren Sie den rekursiven Füllalgorithmus, indem Sie den
-	               Zustand der Nachbarpixel überprüfen (mittels "canvas.get_pixel(x, y)"
-				   wobei "x" und "y" die Position des zu überprüfenden Pixels definieren)
+    Aufgabe 3.2.1. Implementieren Sie den rekursiven Fï¿½llalgorithmus, indem Sie den
+	               Zustand der Nachbarpixel ï¿½berprï¿½fen (mittels "canvas.get_pixel(x, y)"
+				   wobei "x" und "y" die Position des zu ï¿½berprï¿½fenden Pixels definieren)
 				   und rufen Sie rekursiv die "draw"-Methode auf, wenn die Pixel nicht 
 				   gesetzt sind. Ein Pixel kann durch "canvas.set_pixel(x, y)" gesetzt
 				   werden.
@@ -33,28 +33,28 @@ void recursive_fill_tool::draw(int x, int y)
 	}
 	
 	//oben
-	if (canvas.get_pixel(x, y - 1) == false)
+	if (canvas.get_pixel(x, y - 1) == false && (y>0))
 	{
 		canvas.set_pixel(x, y - 1);
 		draw(x, y - 1);
 	}
 
 	//unten
-	if (canvas.get_pixel(x, y + 1) == false)
+	if (canvas.get_pixel(x, y + 1) == false && (y<99))
 	{
 		canvas.set_pixel(x, y + 1);
 		draw(x, y + 1);
 	}
 
 	//links
-	if (canvas.get_pixel(x - 1, y) == false)
+	if (canvas.get_pixel(x - 1, y) == false && (x>0))
 	{
 		canvas.set_pixel(x - 1, y);
 		draw(x - 1, y);
 	}
 	
 	//rechts
-	if (canvas.get_pixel(x + 1, y) == false)
+	if (canvas.get_pixel(x + 1, y) == false && (x<99))
 	{
 		canvas.set_pixel(x + 1, y);
 		draw(x + 1, y);
