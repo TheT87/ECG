@@ -1,25 +1,19 @@
-d:\downloads\sonstiges\02_raster_graphics\build\vs2017\debug\vc142.pdb
-d:\downloads\sonstiges\02_raster_graphics\build\vs2017\debug\vc142.idb
-d:\downloads\sonstiges\02_raster_graphics\build\vs2017\debug\application.obj
-d:\downloads\sonstiges\02_raster_graphics\build\vs2017\debug\canvas_buffer.obj
-d:\downloads\sonstiges\02_raster_graphics\build\vs2017\debug\canvas_renderer.obj
-d:\downloads\sonstiges\02_raster_graphics\build\vs2017\debug\main.obj
-d:\downloads\sonstiges\02_raster_graphics\build\vs2017\debug\preview_renderer.obj
-d:\downloads\sonstiges\02_raster_graphics\build\vs2017\debug\bresenham_circle_tool.obj
-d:\downloads\sonstiges\02_raster_graphics\build\vs2017\debug\bresenham_line_tool.obj
-d:\downloads\sonstiges\02_raster_graphics\build\vs2017\debug\dda_line_tool.obj
-d:\downloads\sonstiges\02_raster_graphics\build\vs2017\debug\line_fill_tool.obj
-d:\downloads\sonstiges\02_raster_graphics\build\vs2017\debug\non_recursive_fill_tool.obj
-d:\downloads\sonstiges\02_raster_graphics\build\vs2017\debug\pen_tool.obj
-d:\downloads\sonstiges\02_raster_graphics\build\vs2017\debug\rectangle_tool.obj
-d:\downloads\sonstiges\02_raster_graphics\build\vs2017\debug\recursive_fill_tool.obj
-d:\downloads\sonstiges\02_raster_graphics\build\vs2017\debug\tool_base.obj
-d:\downloads\sonstiges\02_raster_graphics\build\vs2017\debug\raster_graphics.exe
-d:\downloads\sonstiges\02_raster_graphics\build\vs2017\debug\raster_graphics.ilk
-d:\downloads\sonstiges\02_raster_graphics\build\vs2017\debug\raster_graphics.pdb
-d:\downloads\sonstiges\02_raster_graphics\build\vs2017\debug\raster_graphics.tlog\cl.command.1.tlog
-d:\downloads\sonstiges\02_raster_graphics\build\vs2017\debug\raster_graphics.tlog\cl.read.1.tlog
-d:\downloads\sonstiges\02_raster_graphics\build\vs2017\debug\raster_graphics.tlog\cl.write.1.tlog
-d:\downloads\sonstiges\02_raster_graphics\build\vs2017\debug\raster_graphics.tlog\link.command.1.tlog
-d:\downloads\sonstiges\02_raster_graphics\build\vs2017\debug\raster_graphics.tlog\link.read.1.tlog
-d:\downloads\sonstiges\02_raster_graphics\build\vs2017\debug\raster_graphics.tlog\link.write.1.tlog
+c:\users\73-109-98-97\documents\technische universitaet dresden\einfuehrung in die computergraphik\ecg\uebungen\02_raster_graphics\build\vs2017\debug\vc142.pdb
+c:\users\73-109-98-97\documents\technische universitaet dresden\einfuehrung in die computergraphik\ecg\uebungen\02_raster_graphics\build\vs2017\debug\vc142.idb
+c:\users\73-109-98-97\documents\technische universitaet dresden\einfuehrung in die computergraphik\ecg\uebungen\02_raster_graphics\build\vs2017\debug\application.obj
+c:\users\73-109-98-97\documents\technische universitaet dresden\einfuehrung in die computergraphik\ecg\uebungen\02_raster_graphics\build\vs2017\debug\canvas_buffer.obj
+c:\users\73-109-98-97\documents\technische universitaet dresden\einfuehrung in die computergraphik\ecg\uebungen\02_raster_graphics\build\vs2017\debug\canvas_renderer.obj
+c:\users\73-109-98-97\documents\technische universitaet dresden\einfuehrung in die computergraphik\ecg\uebungen\02_raster_graphics\build\vs2017\debug\main.obj
+c:\users\73-109-98-97\documents\technische universitaet dresden\einfuehrung in die computergraphik\ecg\uebungen\02_raster_graphics\build\vs2017\debug\preview_renderer.obj
+c:\users\73-109-98-97\documents\technische universitaet dresden\einfuehrung in die computergraphik\ecg\uebungen\02_raster_graphics\build\vs2017\debug\bresenham_circle_tool.obj
+c:\users\73-109-98-97\documents\technische universitaet dresden\einfuehrung in die computergraphik\ecg\uebungen\02_raster_graphics\build\vs2017\debug\bresenham_line_tool.obj
+c:\users\73-109-98-97\documents\technische universitaet dresden\einfuehrung in die computergraphik\ecg\uebungen\02_raster_graphics\build\vs2017\debug\dda_line_tool.obj
+c:\users\73-109-98-97\documents\technische universitaet dresden\einfuehrung in die computergraphik\ecg\uebungen\02_raster_graphics\build\vs2017\debug\line_fill_tool.obj
+c:\users\73-109-98-97\documents\technische universitaet dresden\einfuehrung in die computergraphik\ecg\uebungen\02_raster_graphics\build\vs2017\debug\pen_tool.obj
+c:\users\73-109-98-97\documents\technische universitaet dresden\einfuehrung in die computergraphik\ecg\uebungen\02_raster_graphics\build\vs2017\debug\rectangle_tool.obj
+c:\users\73-109-98-97\documents\technische universitaet dresden\einfuehrung in die computergraphik\ecg\uebungen\02_raster_graphics\build\vs2017\debug\recursive_fill_tool.obj
+c:\users\73-109-98-97\documents\technische universitaet dresden\einfuehrung in die computergraphik\ecg\uebungen\02_raster_graphics\build\vs2017\debug\tool_base.obj
+c:\users\73-109-98-97\documents\technische universitaet dresden\einfuehrung in die computergraphik\ecg\uebungen\02_raster_graphics\build\vs2017\debug\sweep_line_tool.obj
+c:\users\73-109-98-97\documents\technische universitaet dresden\einfuehrung in die computergraphik\ecg\uebungen\02_raster_graphics\build\vs2017\debug\raster_graphics.tlog\cl.command.1.tlog
+c:\users\73-109-98-97\documents\technische universitaet dresden\einfuehrung in die computergraphik\ecg\uebungen\02_raster_graphics\build\vs2017\debug\raster_graphics.tlog\cl.read.1.tlog
+c:\users\73-109-98-97\documents\technische universitaet dresden\einfuehrung in die computergraphik\ecg\uebungen\02_raster_graphics\build\vs2017\debug\raster_graphics.tlog\cl.write.1.tlog

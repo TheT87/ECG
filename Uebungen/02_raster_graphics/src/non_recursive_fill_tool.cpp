@@ -5,6 +5,7 @@
 //
 #include "non_recursive_fill_tool.h"
 #include <deque>
+#include <iostream>
 
 // Initialize the tool and store a reference of a canvas_buffer
 non_recursive_fill_tool::non_recursive_fill_tool(canvas_buffer& canvas): tool_base(canvas)
@@ -53,7 +54,7 @@ void non_recursive_fill_tool::draw(int x, int y)
 	if (!canvas.get_pixel(x, y)) {
 		p.x = x; 
 		p.y = y; 
-		canvas.set_pixel(x, y);
+		canvas.set_pixel(p.x, p.y);
 		stack.push_back(p);
 	}
 
@@ -64,9 +65,43 @@ void non_recursive_fill_tool::draw(int x, int y)
 
 		int cur_x = stack.front().x; 
 		int cur_y = stack.front().y;
+
+		std::cout << "cur_x: " << cur_x << "| cur_y: " << cur_y << std::endl;
 		// Complete the algorithm here
 
-		stack.pop_front(); 
+		if ((cur_x + 1) < canvas.get_width && !canvas.get_pixel(cur_x + 1, cur_y)){
+			p.x = cur_x + 1;
+			p.y = cur_y;
+			canvas.set_pixel(p.x, p.y);
+			stack.push_back(p);
+		}
+
+		if ((cur_y + 1) < canvas.get_height && !canvas.get_pixel(cur_x, cur_y + 1))
+		{
+			p.x = cur_x;
+			p.y = cur_y + 1;
+			canvas.set_pixel(p.x, p.y);
+			stack.push_back(p);
+		}
+
+		if ((cur_x - 1) >= 0 && !canvas.get_pixel(cur_x - 1, cur_y))
+		{
+			p.x = cur_x - 1;
+			p.y = cur_y;
+			canvas.set_pixel(p.x, p.y);
+			stack.push_back(p);
+		}
+
+		if ((cur_y - 1) >= 0 && !canvas.get_pixel(cur_x, cur_y - 1))
+		{
+			p.x = cur_x;
+			p.y = cur_y - 1;
+			canvas.set_pixel(p.x, p.y);
+			stack.push_back(p);
+		}
+		//_sleep(0.2);
+
+		stack.pop_front();
 	}
 }
 

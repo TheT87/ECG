@@ -33,28 +33,28 @@ void recursive_fill_tool::draw(int x, int y)
 	}
 	
 	//oben
-	if (canvas.get_pixel(x, y - 1) == false && (y>0))
+	if (canvas.get_pixel(x, y - 1) == false && (y>1))
 	{
 		canvas.set_pixel(x, y - 1);
 		draw(x, y - 1);
 	}
 
 	//unten
-	if (canvas.get_pixel(x, y + 1) == false && (y<99))
+	if (canvas.get_pixel(x, y + 1) == false && (y<98))
 	{
 		canvas.set_pixel(x, y + 1);
 		draw(x, y + 1);
 	}
 
 	//links
-	if (canvas.get_pixel(x - 1, y) == false && (x>0))
+	if (canvas.get_pixel(x - 1, y) == false && (x>1))
 	{
 		canvas.set_pixel(x - 1, y);
 		draw(x - 1, y);
 	}
 	
 	//rechts
-	if (canvas.get_pixel(x + 1, y) == false && (x<99))
+	if (canvas.get_pixel(x + 1, y) == false && (x<98))
 	{
 		canvas.set_pixel(x + 1, y);
 		draw(x + 1, y);
