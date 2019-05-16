@@ -35,6 +35,28 @@ void bresenham_line_tool::draw(int x0, int y0, int x1, int y1)
 				   den Standardfall her. Falls Sie den Wert zweier Variablen vertauschen
 				   muessen koennen Sie dafür die Methode "std::swap(a, b)" verwenden.
    *************/
+
+	int dx = std::abs(x1 - x0);	// absolute, otherwise there was infinite counting in wrong direction
+	int dy = (std::abs(y1 - y0)); // negative for e.g an angle between 180° and 360°
+	int error = dx + dy;
+	int current_error;
+
+	int step_x = (x0 < x1 ? 1 : -1);
+	int step_y = (y0 < y1 ? 1 : -1);
+
+	canvas.set_pixel(x0, y0);
+	while (!(x0 == x1 && y0 == y1)) {	// we need to check all of these since there are more cases than standard
+		current_error = 2 * error;
+		if (current_error > dy) {
+			error += dy;
+			x0 += step_x;
+		}
+		if (current_error < dx) {
+			error += dx;
+			y0 += step_y;
+		}
+		canvas.set_pixel(x0, y0);
+	}
 }
 
 

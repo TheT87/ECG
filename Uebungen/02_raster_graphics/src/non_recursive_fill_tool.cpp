@@ -69,14 +69,14 @@ void non_recursive_fill_tool::draw(int x, int y)
 		std::cout << "cur_x: " << cur_x << "| cur_y: " << cur_y << std::endl;
 		// Complete the algorithm here
 
-		if ((cur_x + 1) < canvas.get_width && !canvas.get_pixel(cur_x + 1, cur_y)){
+		if ((cur_x + 1) < canvas.get_width() && !canvas.get_pixel(cur_x + 1, cur_y)){
 			p.x = cur_x + 1;
 			p.y = cur_y;
 			canvas.set_pixel(p.x, p.y);
 			stack.push_back(p);
 		}
 
-		if ((cur_y + 1) < canvas.get_height && !canvas.get_pixel(cur_x, cur_y + 1))
+		if ((cur_y + 1) < canvas.get_height() && !canvas.get_pixel(cur_x, cur_y + 1))
 		{
 			p.x = cur_x;
 			p.y = cur_y + 1;
