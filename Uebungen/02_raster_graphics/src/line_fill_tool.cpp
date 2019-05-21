@@ -28,6 +28,9 @@ void line_fill_tool::draw(int x, int y)
 	                 koennen Sie sich Helfermethoden in der dazugehoerigen Header-Datei
 					 deklarieren und in dieser Datei definieren.
 	*************/
+
+
+
 }
 
 
