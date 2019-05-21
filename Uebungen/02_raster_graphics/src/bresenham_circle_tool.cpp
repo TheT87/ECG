@@ -4,9 +4,10 @@
 // Copyright (C) 2016 CGV TU Dresden - All Rights Reserved
 //
 #include "bresenham_circle_tool.h"
+#include "bresenham_line_tool.h"
 #include <algorithm>
 #include <math.h>
-#include<iostream>
+
 
 // Initialize the tool and store a reference of a canvas_buffer
 bresenham_circle_tool::bresenham_circle_tool(canvas_buffer& canvas): tool_base(canvas)
@@ -23,15 +24,15 @@ void bresenham_circle_tool::draw(int x0, int y0, int x1, int y1)
 	// Calculate the radius
 	int r = static_cast<int>(sqrt(static_cast<double>((x0 - x1) * (x0 - x1) + (y0 - y1) * (y0 - y1))));
 
-	/************
-	Additional task: Implement circle rasterization using the bresenham algorithm.
-					 The circle shall have its center at (x0, y0) with a
-					 radius of "r".
-	Zusatzaufgabe:   Implementieren Sie die Rasterisierung eines Kreises mit dem
-					 Bresenham-Algorithmus. Der Kreis soll seinen Mittelpunkt bei
-					 (x0, y0) und einen Radius von "r" haben.
-	*************/
+
+	// Beispiel wie man den Bresenham woanders aufruft
+
+	bresenham_line_tool example(canvas);
+	example.draw(30,5,20,70);
 	
+
+	//
+
 	int f = 1 - r;
 	int ddF_x = 0;
 	int ddF_y = -2 * r;
@@ -57,6 +58,7 @@ void bresenham_circle_tool::draw(int x0, int y0, int x1, int y1)
 		ddF_x += 2;
 		f += ddF_x + 1;
 
+		
 		
 		// unten -> links unten
 		canvas.set_pixel(x0 - x, y0 + y);
