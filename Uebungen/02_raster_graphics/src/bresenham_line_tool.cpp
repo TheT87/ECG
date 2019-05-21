@@ -37,7 +37,7 @@ void bresenham_line_tool::draw(int x0, int y0, int x1, int y1)
    *************/
 
 	int dx = std::abs(x1 - x0);	// absolute, otherwise there was infinite counting in wrong direction
-	int dy = (std::abs(y1 - y0)); // negative for e.g an angle between 180° and 360°
+	int dy = -(std::abs(y1 - y0)); // negative for e.g an angle between 180° and 360°
 	int error = dx + dy;
 	int current_error;
 
