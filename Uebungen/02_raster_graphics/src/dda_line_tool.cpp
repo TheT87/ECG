@@ -31,7 +31,7 @@ void dda_line_tool::draw(int x0, int y0, int x1, int y1)
 				   muessen koennen Sie dafür die Methode "std::swap(a, b)" verwenden.
    *************/
 	int i;
-	float q, x, y,dx,dy,step;
+	float x, y,dx,dy,step;
 
 	if (x0>x1&&y0>y1)
 	{
@@ -56,14 +56,13 @@ void dda_line_tool::draw(int x0, int y0, int x1, int y1)
 	
 	dx = dx / step;
 	dy = dy / step;
-	i = 0;
 
-	while (i <= step)
+	for(i = 0; i <= step;i++)
 	{ 
 		canvas.set_pixel(x, y);
 		x = x + dx;
 		y = y + dy;
-		i++;
+		
 	}
 
 
