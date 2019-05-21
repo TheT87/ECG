@@ -31,7 +31,6 @@ void bresenham_circle_tool::draw(int x0, int y0, int x1, int y1)
 					 Bresenham-Algorithmus. Der Kreis soll seinen Mittelpunkt bei
 					 (x0, y0) und einen Radius von "r" haben.
 	*************/
-
 	
 	int f = 1 - r;
 	int ddF_x = 0;
@@ -39,6 +38,7 @@ void bresenham_circle_tool::draw(int x0, int y0, int x1, int y1)
 	int x = 0;
 	int y = r;
 
+	//Stellen an denen Kreisgleichung nicht definiert ist 
 	canvas.set_pixel(x0, y0 + r);
 	canvas.set_pixel(x0, y0 - r);
 	canvas.set_pixel(x0 + r, y0);

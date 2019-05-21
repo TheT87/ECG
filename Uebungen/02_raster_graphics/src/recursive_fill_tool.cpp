@@ -4,6 +4,7 @@
 // Copyright (C) 2016 CGV TU Dresden - All Rights Reserved
 //
 #include "recursive_fill_tool.h"
+#include "canvas_buffer.h"
 #include <iostream>
 // Initialize the tool and store a reference of a canvas_buffer
 recursive_fill_tool::recursive_fill_tool(canvas_buffer& canvas): tool_base(canvas)
@@ -32,7 +33,8 @@ void recursive_fill_tool::draw(int x, int y)
 		canvas.set_pixel(x, y);
 		
 	}
-	
+
+
 	//oben
 	if ((canvas.get_pixel(x, y - 1) == false) && (y > 0))
 	{
@@ -41,7 +43,7 @@ void recursive_fill_tool::draw(int x, int y)
 	}
 
 	//unten
-	if ((canvas.get_pixel(x, y + 1) == false) && (y<canvas.get_height))
+	if ((canvas.get_pixel(x, y + 1) == false) && (y< (canvas.get_height()-1) ))
 	{
 		canvas.set_pixel(x, y + 1);
 		draw(x, y + 1);
@@ -55,7 +57,7 @@ void recursive_fill_tool::draw(int x, int y)
 	}
 	
 	//rechts
-	if ((canvas.get_pixel(x + 1, y) == false) && (x < canvas.get_width))
+	if ((canvas.get_pixel(x + 1, y) == false) && (x < (canvas.get_width()-1) ))
 	{
 		canvas.set_pixel(x + 1, y);
 		draw(x + 1, y);
