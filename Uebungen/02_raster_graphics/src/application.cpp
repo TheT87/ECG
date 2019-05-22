@@ -9,7 +9,7 @@
 #include <math.h>
 #include "pen_tool.h"
 #include "dda_line_tool.h"
-#include "star_tool"
+#include "star_tool.h"
 #include "bresenham_line_tool.h"
 #include "bresenham_circle_tool.h"
 #include "recursive_fill_tool.h"
@@ -271,6 +271,7 @@ void application::key_down(unsigned char key, int x, int y)
 		// Return or "t" displays the test shape
 		case 13:
 		case 't': context_menu_select(MA_TEST_SHAPE); break;
+		case 'g': context_menu_select(MA_TOOL_RECTANGLE); break;
 		// Backspace resets the view
 		case 8: context_menu_select(MA_RESET_VIEW); break;
 		// ESC destroys the window and quits the program

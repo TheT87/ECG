@@ -51,6 +51,7 @@ enum MenuActions
 	MA_TOOL_DDA_LINE,				// use dda-line tool
 	MA_TOOL_BRESENHAM_LINE,			// use bresenham-line tool
 	MA_TOOL_CIRCLE,					// use bresenham-circle tool
+	MA_TOOL_STAR,					// use star tool
 	MA_TOOL_RECTANGLE,				// use box tool
 	MA_FILL_RECURSIVE,				// use recursive fill tool
 	MA_FILL_NONRECURSIVE,			// use non-recursive fill tool
