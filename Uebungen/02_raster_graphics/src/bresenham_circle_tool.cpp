@@ -23,19 +23,7 @@ void bresenham_circle_tool::draw(int x0, int y0, int x1, int y1)
 {
 	// Calculate the radius
 	int r = static_cast<int>(sqrt(static_cast<double>((x0 - x1) * (x0 - x1) + (y0 - y1) * (y0 - y1))));
-
-
-	// Beispiel wie man den Bresenham woanders aufruft
-
-	bresenham_line_tool example(canvas);
-	example.draw(30,5,20,70);
-	
-
-	//
-
-	int f = 1 - r;
-	int ddF_x = 0;
-	int ddF_y = -2 * r;
+	int d = 3 - 2 * r;
 	int x = 0;
 	int y = r;
 
@@ -44,20 +32,21 @@ void bresenham_circle_tool::draw(int x0, int y0, int x1, int y1)
 	canvas.set_pixel(x0, y0 - r);
 	canvas.set_pixel(x0 + r, y0);
 	canvas.set_pixel(x0 - r, y0);
-	
+
 
 	while (x < y)
 	{
-		if (f >= 0)
+		x++;
+
+		if (d > 0)
 		{
 			y--;
-			ddF_y += 2;
-			f += ddF_y;
+			d = d + 4 * (x - y) + 10;
 		}
-		x++;
-		ddF_x += 2;
-		f += ddF_x + 1;
-
+		else 
+		{
+			d = d + 4 * x + 6;
+		}
 		
 		
 		// unten -> links unten
