@@ -9,6 +9,7 @@
 #include <math.h>
 #include "pen_tool.h"
 #include "dda_line_tool.h"
+#include "star_tool"
 #include "bresenham_line_tool.h"
 #include "bresenham_circle_tool.h"
 #include "recursive_fill_tool.h"
@@ -152,6 +153,10 @@ void application::context_menu_select(int item)
 		case MA_RESET_VIEW: 
 			renderer->reset_view();
 			break;
+
+		case MA_TOOL_STAR:
+			set_tool(new star_tool(*canvas));
+			break;
 	}
 
 	// Update display
@@ -187,6 +192,7 @@ void application::setup_context_menu()
     glutAddMenuEntry(" Line (using Bresenham)    (b) ", MA_TOOL_BRESENHAM_LINE);
     glutAddMenuEntry(" Circle (using Bresenham)  (o) ", MA_TOOL_CIRCLE);
     glutAddMenuEntry(" Rectangle                 (s) ", MA_TOOL_RECTANGLE);
+    glutAddMenuEntry(" Star                      (g) ", MA_TOOL_STAR);
     glutAddMenuEntry(" ------------ Fill ----------- ", -1);
     glutAddMenuEntry(" Recursive Fill            (r) ", MA_FILL_RECURSIVE);
     glutAddMenuEntry(" Non-recursive Fill        (f) ", MA_FILL_NONRECURSIVE);

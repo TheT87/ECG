@@ -114,6 +114,7 @@
     <ClCompile Include="..\..\src\rectangle_tool.cpp" />
     <ClCompile Include="..\..\src\recursive_fill_tool.cpp" />
     <ClCompile Include="..\..\src\tool_base.cpp" />
+    <ClCompile Include="star_tool.cpp" />
     <ClCompile Include="sweep_line_tool.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -130,6 +131,7 @@
     <ClInclude Include="..\..\include\rectangle_tool.h" />
     <ClInclude Include="..\..\include\recursive_fill_tool.h" />
     <ClInclude Include="..\..\include\tool_base.h" />
+    <ClInclude Include="star_tool.h" />
     <ClInclude Include="sweep_line_tool.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
