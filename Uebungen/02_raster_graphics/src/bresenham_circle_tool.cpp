@@ -51,24 +51,20 @@ void bresenham_circle_tool::draw(int x0, int y0, int x1, int y1)
 		
 		// unten -> links unten
 		canvas.set_pixel(x0 - x, y0 + y);
-		// unten -> rechts unten
-		canvas.set_pixel(x0 + x, y0 + y);
-
-		// oben -> links oben 
+		// links unten -> links
+		canvas.set_pixel(x0 - y, y0 + x);
+		//links -> links oben
+		canvas.set_pixel(x0 - y, y0 - x);
+		// links oben -> oben
 		canvas.set_pixel(x0 - x, y0 - y);
 		// oben -> rechts oben
 		canvas.set_pixel(x0 + x, y0 - y);
-
-		//links -> links oben
-		canvas.set_pixel(x0 - y, y0 - x);
-		// links -> links unten
-		canvas.set_pixel(x0 - y, y0 + x);
-		
-		// rechts -> rechts oben
+		// rechts oben -> rechts
 		canvas.set_pixel(x0 + y, y0 - x);
 		// rechts -> rechts unten
 		canvas.set_pixel(x0 + y, y0 + x);
-
+		// rechts unten -> unten
+		canvas.set_pixel(x0 + x, y0 + y);
 	}
 	
 }
