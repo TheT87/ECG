@@ -51,11 +51,11 @@ enum MenuActions
 	MA_TOOL_DDA_LINE,				// use dda-line tool
 	MA_TOOL_BRESENHAM_LINE,			// use bresenham-line tool
 	MA_TOOL_CIRCLE,					// use bresenham-circle tool
-	MA_TOOL_STAR,					// use star tool
 	MA_TOOL_RECTANGLE,				// use box tool
 	MA_FILL_RECURSIVE,				// use recursive fill tool
 	MA_FILL_NONRECURSIVE,			// use non-recursive fill tool
 	MA_FILL_LINE,					// use line-fill tool
+	MA_SWEEP_LINE,					// use sweep-line tool
 	MA_CLEAR_CANVAS,				// clear the canvas
 	MA_TEST_SHAPE,					// draw the test shape
 	MA_RESET_VIEW					// reset translation and zoom
