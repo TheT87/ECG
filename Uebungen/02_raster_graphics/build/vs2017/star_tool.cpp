@@ -43,7 +43,7 @@ void star_tool::draw(int x0, int y0, int x1, int y1) {
 	}
 
 	for (int i = 0; i < verts.size(); i+4) {
-		line_tool.draw(verts.pop_back, verts.pop_back, verts.pop_back, verts.pop_back);
+//		line_tool.draw(verts.pop_back, verts.pop_back, verts.pop_back, verts.pop_back);
 	}
 
 

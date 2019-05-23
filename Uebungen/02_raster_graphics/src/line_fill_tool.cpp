@@ -15,6 +15,10 @@ line_fill_tool::line_fill_tool(canvas_buffer& canvas) : tool_base(canvas)
 	is_draggable = false;
 }
 
+struct waiting_pixel {
+	int x, y;
+};
+
 
 
 // Fill the shape that contains the point (x, y)
@@ -29,7 +33,26 @@ void line_fill_tool::draw(int x, int y)
 					 deklarieren und in dieser Datei definieren.
 	*************/
 
-	std::cout << "Bevore drawing pixels" << endl;
+	waiting_pixel p;
+	std::deque<waiting_pixel> stack;
+
+	// init pixel
+	if (!canvas.get_pixel(x, y)) {
+		p.x = x;
+		p.y = y;
+		canvas.set_pixel(p.x, p.y);
+		stack.push_back(p);
+	}
+
+
+	// while stack has pixels
+	while (!stack.empty())
+	{
+
+	}
+
+
+	/*
 
 	if (!canvas.get_pixel(x - 1, y) && (x > 0 && x < canvas.get_width() - 1))
 	{
@@ -64,6 +87,8 @@ void line_fill_tool::draw(int x, int y)
 
 		draw(x + 1, y);
 	}
+
+	*/
 
 }
 
