@@ -5,7 +5,7 @@
 //
 #include "line_fill_tool.h"
 #include <deque>
-
+#include <iostream>
 
 // Initialize the tool and store a reference of a canvas_buffer
 line_fill_tool::line_fill_tool(canvas_buffer& canvas): tool_base(canvas)
@@ -28,6 +28,48 @@ void line_fill_tool::draw(int x, int y)
 	                 koennen Sie sich Helfermethoden in der dazugehoerigen Header-Datei
 					 deklarieren und in dieser Datei definieren.
 	*************/
+	
+
+		if (!canvas.get_pixel(x - 1, y) && (x > 0 && x < canvas.get_width() - 1))
+		{
+			canvas.set_pixel(x - 1, y);
+
+			if ((0 < y < canvas.get_height()-1) && !canvas.get_pixel(x - 1, y - 1))
+			{
+				draw(x, y - 1);
+			}
+
+			if ((0 < y < canvas.get_height()-1) && !canvas.get_pixel(x - 1, y + 1))
+			{
+				draw(x, y + 1);
+			}
+
+			draw(x - 1, y);
+		}
+
+		if (!canvas.get_pixel(x + 1, y) && (x > 0 && x < canvas.get_width() - 1))
+		{
+			canvas.set_pixel(x + 1, y);
+
+			if ((0 < y < canvas.get_height()-1) && !canvas.get_pixel(x + 1, y - 1)) 
+			{
+				draw(x, y - 1);
+			}
+
+			if ((0 < y < canvas.get_height()-1) && !canvas.get_pixel(x + 1, y + 1))
+			{
+				draw(x, y + 1);
+			}
+
+			draw(x + 1, y);
+		}
+		
+		
+
+
+	
+	
+
 
 
 
