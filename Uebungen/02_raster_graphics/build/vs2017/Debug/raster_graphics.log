@@ -1,25 +1,11 @@
 ﻿cl : Befehlszeile warning D9035: Die Option "Gm" ist veraltet und wird in einer der nächsten Versionen entfernt.
-  sweep_line_tool.cpp
-c1xx : fatal error C1083: Datei (Quelle) kann nicht geöffnet werden: "sweep_line_tool.cpp": No such file or directory
   star_tool.cpp
-c1xx : fatal error C1083: Datei (Quelle) kann nicht geöffnet werden: "star_tool.cpp": No such file or directory
-  tool_base.cpp
-  recursive_fill_tool.cpp
-  rectangle_tool.cpp
-  pen_tool.cpp
-  non_recursive_fill_tool.cpp
-  line_fill_tool.cpp
-  dda_line_tool.cpp
-F:\Dokumente\Technische Universitaet Dresden\Einfuehrung in die Computergraphik\ECG\ECG\Uebungen\02_raster_graphics\src\dda_line_tool.cpp(42): warning C4244: "=": Konvertierung von "int" in "float", möglicher Datenverlust
-F:\Dokumente\Technische Universitaet Dresden\Einfuehrung in die Computergraphik\ECG\ECG\Uebungen\02_raster_graphics\src\dda_line_tool.cpp(43): warning C4244: "=": Konvertierung von "int" in "float", möglicher Datenverlust
-F:\Dokumente\Technische Universitaet Dresden\Einfuehrung in die Computergraphik\ECG\ECG\Uebungen\02_raster_graphics\src\dda_line_tool.cpp(44): warning C4244: "=": Konvertierung von "int" in "float", möglicher Datenverlust
-F:\Dokumente\Technische Universitaet Dresden\Einfuehrung in die Computergraphik\ECG\ECG\Uebungen\02_raster_graphics\src\dda_line_tool.cpp(45): warning C4244: "=": Konvertierung von "int" in "float", möglicher Datenverlust
-F:\Dokumente\Technische Universitaet Dresden\Einfuehrung in die Computergraphik\ECG\ECG\Uebungen\02_raster_graphics\src\dda_line_tool.cpp(62): warning C4244: "Argument": Konvertierung von "float" in "int", möglicher Datenverlust
-  bresenham_line_tool.cpp
-  bresenham_circle_tool.cpp
-  preview_renderer.cpp
-  main.cpp
-  canvas_renderer.cpp
-  canvas_buffer.cpp
-  application.cpp
-  Code wird generiert...
+F:\Dokumente\Technische Universitaet Dresden\Einfuehrung in die Computergraphik\ECG\ECG\Uebungen\02_raster_graphics\build\vs2017\star_tool.cpp(33): warning C4244: "Initialisierung": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\Dokumente\Technische Universitaet Dresden\Einfuehrung in die Computergraphik\ECG\ECG\Uebungen\02_raster_graphics\build\vs2017\star_tool.cpp(37): warning C4244: "Initialisierung": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\Dokumente\Technische Universitaet Dresden\Einfuehrung in die Computergraphik\ECG\ECG\Uebungen\02_raster_graphics\build\vs2017\star_tool.cpp(43): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+F:\Dokumente\Technische Universitaet Dresden\Einfuehrung in die Computergraphik\ECG\ECG\Uebungen\02_raster_graphics\build\vs2017\star_tool.cpp(43): warning C4552: "+": Ergebnis des Ausdrucks nicht verwendet.
+F:\Dokumente\Technische Universitaet Dresden\Einfuehrung in die Computergraphik\ECG\ECG\Uebungen\02_raster_graphics\build\vs2017\star_tool.cpp(44): error C3867: "std::vector<int,std::allocator<_Ty>>::pop_back": Keine Standardsyntax; "&" zum Erstellen eines Verweises auf das Member verwenden
+          with
+          [
+              _Ty=int
+          ]
