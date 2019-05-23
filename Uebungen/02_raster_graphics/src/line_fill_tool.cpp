@@ -53,12 +53,46 @@ void line_fill_tool::draw(int x, int y)
 		int cur_x = stack.front().x;
 		int cur_y = stack.front().y;
 
-		if (!canvas.get_pixel(cur_x + 1, cur_y))
+		if (canvas.get_pixel(cur_x - 1, cur_y) && canvas.get_pixel(cur_x, cur_y - 1) && canvas.get_pixel(cur_x + 1, cur_y) && canvas.get_pixel(cur_x, cur_y + 1))
+		{
+			stack.pop_front();
+			continue;
+		}
+
+		if (!canvas.get_pixel(cur_x + 1, cur_y) && cur_x + 1 <= canvas.get_width())
 		{
 			canvas.set_pixel(cur_x + 1, cur_y);
-			p.x = cur_x + 1;
+			p.x = cur_x + 1;	// go to x direction
+			stack.push_back(p);	// each visited pixel goes to stack
+		}
+
+		if (!canvas.get_pixel(cur_x - 1, cur_y) && cur_x - 1 >= 0)
+		{
+			canvas.set_pixel(cur_x - 1, cur_y);
+			p.x = cur_x - 1;
 			stack.push_back(p);
 		}
+
+		/*
+
+		for (int i = 0; i < stack.size(); i++) {
+			waiting_pixel wp = stack.at(i);
+			if (canvas.get_pixel(wp.x, wp.y - 1))
+			{
+				cur_y--;
+				while (canvas.get_pixel(cur_x, cur_y))
+				{
+					canvas.set_pixel(cur_x, cur_y);
+					cur_x++;
+					wp.x = cur_x;
+					wp.y = cur_y;
+					stack.push_back(wp);
+				}
+			}
+		}
+
+		*/
+
 
 		stack.pop_front();
 
