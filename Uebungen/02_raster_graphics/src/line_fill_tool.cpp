@@ -48,11 +48,22 @@ void line_fill_tool::draw(int x, int y)
 	// while stack has pixels
 	while (!stack.empty())
 	{
+		int cur_x = stack.front().x;
+		int cur_y = stack.front().y;
+
+		if (!canvas.get_pixel(cur_x + 1, cur_y))
+		{
+			canvas.set_pixel(cur_x + 1, cur_y);
+			p.x = cur_x + 1;
+			stack.push_back(p);
+		}
+
+		stack.pop_front();
 
 	}
 
-
 	/*
+
 
 	if (!canvas.get_pixel(x - 1, y) && (x > 0 && x < canvas.get_width() - 1))
 	{
@@ -61,41 +72,59 @@ void line_fill_tool::draw(int x, int y)
 		if ((0 < y < canvas.get_height() - 1) && !canvas.get_pixel(x - 1, y - 1))
 		{
 			draw(x, y - 1);
+
+			canvas.set_pixel(x, y);
+			if (!canvas.get_pixel(x - 1, y) && (x > 0 && x < canvas.get_width() - 1))
+			{
+				draw(x - 1, y);
+			}
+			else
+			{
+				if (!canvas.get_pixel(x, y + 1))
+				{
+					draw(x, y + 1);
+				}
+				if (!canvas.get_pixel(x, y - 1))
+				{
+					draw(x, y - 1);
+				}
+				else
+				{
+					if (!canvas.get_pixel(x, y - 1))
+					{
+						draw(x, y - 1);
+					}
+				}
+			}
+
+			if (!canvas.get_pixel(x + 1, y) && (x > 0 && x < canvas.get_width() - 1))
+			{
+				draw(x + 1, y);
+			}
+			else
+			{
+				if (!canvas.get_pixel(x, y + 1))
+				{
+					draw(x, y + 1);
+				}
+				if (!canvas.get_pixel(x, y - 1))
+				{
+					draw(x, y - 1);
+				}
+				else
+				{
+					if (!canvas.get_pixel(x, y - 1))
+					{
+						draw(x, y - 1);
+					}
+				}
+			}
+			draw(x + 1, y);
 		}
-
-		if ((0 < y < canvas.get_height() - 1) && !canvas.get_pixel(x - 1, y + 1))
-		{
-			draw(x, y + 1);
-		}
-
-		draw(x - 1, y);
-	}
-
-	if (!canvas.get_pixel(x + 1, y) && (x > 0 && x < canvas.get_width() - 1))
-	{
-		canvas.set_pixel(x + 1, y);
-
-		if ((0 < y < canvas.get_height() - 1) && !canvas.get_pixel(x + 1, y - 1))
-		{
-			draw(x, y - 1);
-		}
-
-		if ((0 < y < canvas.get_height() - 1) && !canvas.get_pixel(x + 1, y + 1))
-		{
-			draw(x, y + 1);
-		}
-
-		draw(x + 1, y);
 	}
 
 	*/
-
 }
-
-
-
-
-
 // Put debug output into the stream "stream" to be displayed in the
 // main window
 void line_fill_tool::set_text(stringstream & stream)
