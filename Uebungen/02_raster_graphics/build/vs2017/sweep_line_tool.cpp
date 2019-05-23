@@ -93,7 +93,7 @@ void sweep_line_tool::draw(int x0, int y0, int x1, int y1)
 			//vt2, v4, vt3
 			//v1 - v2  v2 - v4 
 
-			/*
+			
 			float invslope_3to2 = (p3_1 - p2_1) / (p3_2 - p2_2);
 			float invslope_3to4 = (p3_1 - p4_1) / (p3_2 - p4_2);
 
@@ -102,12 +102,12 @@ void sweep_line_tool::draw(int x0, int y0, int x1, int y1)
 
 			for (int scanlineY = p3_2; scanlineY > p2_2; scanlineY--)
 			{
-				lines.draw((int)curx1, scanlineY, (int)curx2, scanlineY);
+				lines.draw((int)curx1_2, scanlineY, (int)curx2_2, scanlineY);
 				curx1_2 -= invslope_3to2;
 				curx2_2 -= invslope_3to4;
 			}
 
-			*/
+			
 		}
 
 
