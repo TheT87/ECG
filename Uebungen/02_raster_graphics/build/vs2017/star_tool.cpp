@@ -43,10 +43,10 @@ void star_tool::draw(int x0, int y0, int x1, int y1) {
 
 	std::cout << verts.at(0);
 
-	while (!verts.empty)
-	{
-		line_tool.draw(verts.pop_back, verts.pop_back, verts.pop_back, verts.pop_back);
-	}
+	//while (!verts.empty)
+	//{
+	//	line_tool.draw(verts.pop_back, verts.pop_back, verts.pop_back, verts.pop_back);
+	//}
 
 
 }
