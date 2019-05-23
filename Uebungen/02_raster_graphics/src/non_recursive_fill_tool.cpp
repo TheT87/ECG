@@ -99,7 +99,6 @@ void non_recursive_fill_tool::draw(int x, int y)
 			canvas.set_pixel(p.x, p.y);
 			stack.push_back(p);
 		}
-		//_sleep(0.2);
 
 		stack.pop_front();
 	}

@@ -29,6 +29,47 @@ void line_fill_tool::draw(int x, int y)
 					 deklarieren und in dieser Datei definieren.
 	*************/
 
+
+	int xL, xR;
+	if (y < 0 || y > canvas.get_height());
+		return;
+	for (xL = x; xL >= 0; --xL) { // scan left
+		if (canvas.get_pixel(xL, y))
+			break;
+		canvas.set_pixel(xL, y);
+	}
+
+	if (xL < x) {
+		draw(xL, y - 1); // fill child
+		draw(xL, y + 1);
+		++x;
+	}
+
+	for (xR = x; xR <= canvas.get_width(); ++xR) { // scan right
+		if (canvas.get_pixel(xR, y))
+			break;
+		canvas.set_pixel(xR, y);
+	}
+
+	if (xR > x) {
+		draw(xR, y - 1); // fill child
+		draw(xR, y + 1);
+		--x;
+	}
+
+
+
+
+
+
+
+
+
+
+
+	///////////////////////////////////////////////////////////////////////////////////////
+
+	/*
 	canvas.set_pixel(x, y);
 	if (!canvas.get_pixel(x - 1, y) && (x - 1 >= 0))
 	{
@@ -63,6 +104,8 @@ void line_fill_tool::draw(int x, int y)
 			draw(x, y - 1);
 		}
 	}
+
+	*/
 
 }
 

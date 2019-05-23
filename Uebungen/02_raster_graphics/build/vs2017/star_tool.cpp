@@ -11,7 +11,6 @@ using std::vector;
 star_tool::star_tool(canvas_buffer& canvas) : tool_base(canvas)
 {
 	shape = TS_CIRCLE;
-
 }
 
 void star_tool::draw(int x0, int y0, int x1, int y1) {
@@ -42,8 +41,11 @@ void star_tool::draw(int x0, int y0, int x1, int y1) {
 		c++;
 	}
 
-	for (int i = 0; i < verts.size(); i+4) {
-//		line_tool.draw(verts.pop_back, verts.pop_back, verts.pop_back, verts.pop_back);
+	std::cout << verts.at(0);
+
+	while (!verts.empty)
+	{
+		line_tool.draw(verts.pop_back, verts.pop_back, verts.pop_back, verts.pop_back);
 	}
 
 
