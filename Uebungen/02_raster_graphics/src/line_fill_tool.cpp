@@ -40,10 +40,12 @@ void line_fill_tool::draw(int x, int y)
 			{
 				draw(x, y + 1);
 			}
+			//Possibility 1
 			if (!canvas.get_pixel(x, y - 1))
 			{
 				draw(x, y - 1);
 			}
+			//Possibility 2
 			else
 			{
 				if (!canvas.get_pixel(x, y - 1))
@@ -63,10 +65,12 @@ void line_fill_tool::draw(int x, int y)
 			{
 				draw(x, y + 1);
 			}
+			//Possibility 1
 			if (!canvas.get_pixel(x, y - 1))
 			{
 				draw(x, y - 1);
 			}
+			//Possibility 2
 			else
 			{
 				if (!canvas.get_pixel(x, y - 1))
