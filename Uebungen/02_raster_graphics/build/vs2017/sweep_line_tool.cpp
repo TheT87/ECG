@@ -20,7 +20,6 @@ void sweep_line_tool::draw(int x0, int y0, int x1, int y1)
 
 	bresenham_line_tool lines(canvas);
 
-
 	if (p1_2 > p2_2)
 	{
 		std::swap(p1_1, p2_1);
