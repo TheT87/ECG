@@ -9,13 +9,13 @@
 #include <math.h>
 #include "pen_tool.h"
 #include "dda_line_tool.h"
-#include "star_tool.h"
 #include "bresenham_line_tool.h"
 #include "bresenham_circle_tool.h"
 #include "recursive_fill_tool.h"
 #include "non_recursive_fill_tool.h"
 #include "line_fill_tool.h"
 #include "rectangle_tool.h"
+#include "sweep_line_tool.h"
 
 
 application::application()
@@ -139,6 +139,10 @@ void application::context_menu_select(int item)
 			set_tool(new line_fill_tool(*canvas));
 			break;
 
+		case MA_SWEEP_LINE:
+			set_tool(new sweep_line_tool(*canvas));
+			break;
+
 		// Clear the canvas
 		case MA_CLEAR_CANVAS:
 			canvas->clear_canvas();
@@ -152,10 +156,6 @@ void application::context_menu_select(int item)
 		// Reset translation and zoom
 		case MA_RESET_VIEW: 
 			renderer->reset_view();
-			break;
-
-		case MA_TOOL_STAR:
-			set_tool(new star_tool(*canvas));
 			break;
 	}
 
@@ -192,11 +192,11 @@ void application::setup_context_menu()
     glutAddMenuEntry(" Line (using Bresenham)    (b) ", MA_TOOL_BRESENHAM_LINE);
     glutAddMenuEntry(" Circle (using Bresenham)  (o) ", MA_TOOL_CIRCLE);
     glutAddMenuEntry(" Rectangle                 (s) ", MA_TOOL_RECTANGLE);
-    glutAddMenuEntry(" Star                      (g) ", MA_TOOL_STAR);
     glutAddMenuEntry(" ------------ Fill ----------- ", -1);
     glutAddMenuEntry(" Recursive Fill            (r) ", MA_FILL_RECURSIVE);
     glutAddMenuEntry(" Non-recursive Fill        (f) ", MA_FILL_NONRECURSIVE);
     glutAddMenuEntry(" Line-Fill                 (l) ", MA_FILL_LINE);
+	glutAddMenuEntry(" Sweep-Line Fill           (e) ", MA_SWEEP_LINE);
 	glutAddMenuEntry(" ------- Miscellaneous ------- ", -1);
     glutAddMenuEntry(" Clear canvas              (c) ", MA_CLEAR_CANVAS);
     glutAddMenuEntry(" Draw test shape           (t) ", MA_TEST_SHAPE);
@@ -265,13 +265,13 @@ void application::key_down(unsigned char key, int x, int y)
 		case 'r': context_menu_select(MA_FILL_RECURSIVE); break;
 		case 'f': context_menu_select(MA_FILL_NONRECURSIVE); break;
 		case 'l': context_menu_select(MA_FILL_LINE); break;
+		case 'e': context_menu_select(MA_SWEEP_LINE); break;
 		// Space or "c" clears the canvas
 		case 'c': 
 		case ' ': context_menu_select(MA_CLEAR_CANVAS); break;
 		// Return or "t" displays the test shape
 		case 13:
 		case 't': context_menu_select(MA_TEST_SHAPE); break;
-		case 'g': context_menu_select(MA_TOOL_RECTANGLE); break;
 		// Backspace resets the view
 		case 8: context_menu_select(MA_RESET_VIEW); break;
 		// ESC destroys the window and quits the program
