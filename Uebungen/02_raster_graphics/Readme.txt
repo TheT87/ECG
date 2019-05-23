@@ -1,8 +1,15 @@
 
+Student: Tobias Koellner
+Matrikel-Nr.:
+
+Student: David Schneider
+Matrikel-Nr.: 4803686
+
+// please pay attention on linking this result to the account from David Schneider
+
 
 bresenham_circle_tool: 
 	completed by Tobias Koellner
-
 
 bresenham_line_tool.cpp
 	comleted by David Schneider
