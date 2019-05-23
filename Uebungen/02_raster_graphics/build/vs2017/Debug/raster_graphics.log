@@ -9,9 +9,3 @@ F:\Dokumente\Technische Universitaet Dresden\Einfuehrung in die Computergraphik\
           [
               _Ty=int
           ]
-  line_fill_tool.cpp
-F:\Dokumente\Technische Universitaet Dresden\Einfuehrung in die Computergraphik\ECG\ECG\Uebungen\02_raster_graphics\src\line_fill_tool.cpp(37): warning C4804: "<": unsichere Verwendung des Typs "bool" in einer Operation
-F:\Dokumente\Technische Universitaet Dresden\Einfuehrung in die Computergraphik\ECG\ECG\Uebungen\02_raster_graphics\src\line_fill_tool.cpp(42): warning C4804: "<": unsichere Verwendung des Typs "bool" in einer Operation
-F:\Dokumente\Technische Universitaet Dresden\Einfuehrung in die Computergraphik\ECG\ECG\Uebungen\02_raster_graphics\src\line_fill_tool.cpp(54): warning C4804: "<": unsichere Verwendung des Typs "bool" in einer Operation
-F:\Dokumente\Technische Universitaet Dresden\Einfuehrung in die Computergraphik\ECG\ECG\Uebungen\02_raster_graphics\src\line_fill_tool.cpp(59): warning C4804: "<": unsichere Verwendung des Typs "bool" in einer Operation
-  Code wird generiert...
