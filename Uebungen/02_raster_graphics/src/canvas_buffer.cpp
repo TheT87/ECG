@@ -27,6 +27,10 @@ canvas_buffer::~canvas_buffer()
 // Set a pixel at (x, y)
 void canvas_buffer::set_pixel(int x, int y)
 {
+
+
+	_sleep(0.1f);
+
 	// Display an error message if the position is out of bounds
 	if (x<0 || y<0 || x>=width || y>=height) {
 		std::cout<<"Error in set_pixel: Coordinates "<<x<<", "<<y<<" are out of range ("<<width<<" x "<<height<<")"<<std::endl;
