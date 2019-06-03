@@ -49,26 +49,53 @@ void cube_system::advance_frame()
 // Render the cube system
 void cube_system::render_system()
 {
-	/********
-	Task 2.1.2.    Program the transformation tree from the exercise sheet. To store the
-	               active aggregated transformation matrix on top of a stack use glPushMatrix 
-				   and to reactivate and remove the top element of the transformation stack
-				   use glPopMatrix. For animation a variable "angle" (which has values
-				   between 0 and 359) is defined. Use it for rotations as defined in
-				   the transformation tree.
-	Aufgabe 2.1.2. Programmieren Sie den Transformationsbaum aus dem Uebungsblatt.
-	               Nutzen Sie glPushMatrix um die aktuelle Gesamttransformations-Matrix an die 
-				   Spitze eines Stacks zu speichern und glPopMatrix um die vorderste Matrix
-				   im Stack zu entfernen und zu reaktivieren. Fuer Animationen steht eine Variable
-				   "angle" zur Verfuegung (die Werte zwischen 0 und 359 enthält). Nutzen Sie diese
-				   Variable für Rotationen analog zu den Angaben im gegebenen Transformationsbaum.
-	*********/
+	//--"geliehen"--------------------------------------------
+	// Save initial state
+	glPushMatrix();
 
+	// First branch of the transformation tree
+	glRotated(angle, 0, 1, 0);
+	render_cube();
+	
+	// Load initial state
+	glPopMatrix();
+	
+	// Second branch
+	glRotated(-angle, 0, 1, 0);
+	glTranslated(5, 0, 0);
+	glScaled(0.6, 0.6, 0.6);
+	
+
+	glPushMatrix();
+	
+	// First part
+	glRotated((2 * angle), 0, 0, 1);
+	glTranslated(3, 0, 0);
+	glScaled(0.5, 0.5, 0.5);
+	render_cube();
+	
+	// Load & save intermediate state
+	glPopMatrix();
+	glPushMatrix();
+	
+	// Second part
+	render_cube();
+	
+	// Load intermediate state
+	glPopMatrix();
+	
+	// Third part
+	glRotated((2 * angle + 180), 0, 0, 1);
+	glTranslated(3, 0, 0);
+	glScaled(0.5, 0.5, 0.5);
+	render_cube();
+	
+	//--"geliehen" ende---------------------------------------
 
 	// Remove the following statement (if wanted) as it just serves 2.1.1.
 	// Entfernen Sie die folgende Anweisung gegebenenfalls, da sie lediglich dem Testen
 	// von Aufgabe 2.1.1 dient.
-	render_cube();
+	//render_cube();
 }
 
 
@@ -88,7 +115,51 @@ void cube_system::render_cube()
 				   zunaechst das passende Zeichenprimitiv (Parameter von glBegin) und
                    erstellen Sie Vertices und Farben für alle 6 Seiten. Der Wuerfel soll
 				   von (-1, -1, -1) bis (1, 1, 1) reichen.
-	*********/
+	*********/	
+
+	glColor3d(0.0, 0.0, 255.0);
+	glBegin(GL_QUAD_STRIP);
+
+	// Left
+	glVertex3d(-1.0, 1.0, -1.0);
+	glVertex3d(-1.0, -1.0, -1.0);
+	glVertex3d(-1.0, 1.0, 1.0);
+	glVertex3d(-1.0, -1.0, 1.0);
+
+	// Back
+	glColor3d(255.0, 255.0, 0.0);
+	glVertex3d(1.0, 1.0, 1.0);
+	glVertex3d(1.0, -1.0, 1.0);
+
+	// Right
+	glVertex3d(1.0, 1.0, -1.0);
+	glVertex3d(1.0, -1.0, -1.0);
+	glEnd();
+
+
+	//glColor3d(255.0, 0.0, 0.0);
+	glBegin(GL_QUAD_STRIP);
+
+	// Top
+	
+	glColor3d(0.0, 255.0, 0.0);
+
+	glVertex3d(-1.0, 1.0, 1.0);
+	glVertex3d(1.0, 1.0, 1.0);	
+	glVertex3d(-1.0, 1.0, -1.0);
+	glVertex3d(1.0, 1.0, -1.0);
+
+	// Front
+	glColor3d(0.0, 255.0, 255.0);
+	glVertex3d(-1.0, -1.0, -1.0);
+	glVertex3d(1.0, -1.0, -1.0);
+
+	// Bottom
+	glVertex3d(-1.0, -1.0, 1.0);
+	glVertex3d(1.0, -1.0, 1.0);
+	glEnd();
+
+
 }
 
 
