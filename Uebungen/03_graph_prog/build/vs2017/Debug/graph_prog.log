@@ -1,0 +1,7 @@
+﻿  cl : Command line warning D9035 : option 'Gm' has been deprecated and will be removed in a future release
+  terrain.cpp
+D:\Zeug\Uni\S2\ECG\Uebungen\03_graph_prog\src\terrain.cpp(281,48): warning C4552:  '+': result of expression not used
+  graph_prog.vcxproj -> D:\Zeug\Uni\S2\ECG\Uebungen\03_graph_prog\build\vs2017\Debug\graph_prog.exe
+  Copy freeglut .dll to executable location
+  ..\..\dependencies\freeglut\lib\freeglut.dll
+  1 Datei(en) kopiert
