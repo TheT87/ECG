@@ -43,6 +43,39 @@ void cube_system_split::render()
      ***********/
 
 
+	
+	//glColor3f(1.0f, 0.0f, 0.0f);
+
+
+
+	// bottom left
+	glViewport(0, 0, width / 2, height / 2);
+	glLoadIdentity();
+	gluLookAt(0.0, 0.0, -1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0);
+	glutWireTeapot(0.3f);
+	cube_system::render_system();
+
+	// bottom right	<<<<<<<<<<<<<<<<<<<< 
+	glViewport(width / 2, 0, width / 2, height / 2);
+	glLoadIdentity();
+	gluLookAt(0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0f, 0.0);
+
+	//glutWireTeapot(0.3f);
+	cube_system::render_system();
+
+	// top left
+	glViewport(0, height / 2, width / 2, height / 2);
+	glLoadIdentity();
+	gluLookAt(0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0);
+	glutWireTeapot(0.3f);
+	cube_system::render_system();
+
+	// top right
+	glViewport(width / 2, height / 2, width / 2, height / 2);
+	glLoadIdentity();
+	gluLookAt(0.0, -1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0);
+	glutWireTeapot(0.3f);
+	cube_system::render_system();
 
 
 
@@ -60,6 +93,7 @@ void cube_system_split::render()
 	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity();
 
+
 	// Do not perform depth testing
 	glDisable(GL_DEPTH_TEST);
 
@@ -72,6 +106,8 @@ void cube_system_split::render()
 	glVertex2d(-1, 0);
 	glVertex2d(1, 0);
 	glEnd();
+
+
 
 }
 
