@@ -90,7 +90,7 @@ void cube_system::render_system()
 	glScaled(0.5, 0.5, 0.5);
 	render_cube();
 	
-	//--"geliehen" ende---------------------------------------
+	//--"geliehen" ende----------------------------------------
 
 	// Remove the following statement (if wanted) as it just serves 2.1.1.
 	// Entfernen Sie die folgende Anweisung gegebenenfalls, da sie lediglich dem Testen
@@ -117,46 +117,68 @@ void cube_system::render_cube()
 				   von (-1, -1, -1) bis (1, 1, 1) reichen.
 	*********/	
 
-	glColor3d(0.0, 0.0, 255.0);
-	glBegin(GL_QUAD_STRIP);
+	
+	
 
 	// Left
-	glVertex3d(-1.0, 1.0, -1.0);
+	glColor3d(0.14, 0.14, 0.14);
+
+	glBegin(GL_QUADS);
 	glVertex3d(-1.0, -1.0, -1.0);
-	glVertex3d(-1.0, 1.0, 1.0);
 	glVertex3d(-1.0, -1.0, 1.0);
+	glVertex3d(-1.0, 1.0, 1.0);
+	glVertex3d(-1.0, 1.0, -1.0);
+	glEnd();
 
 	// Back
-	glColor3d(255.0, 255.0, 0.0);
+	glColor3d(0.28, 0.28, 0.28);
+
+	glBegin(GL_QUADS);
 	glVertex3d(1.0, 1.0, 1.0);
 	glVertex3d(1.0, -1.0, 1.0);
+	glVertex3d(-1.0, -1.0, 1.0);
+	glVertex3d(-1.0, 1.0, 1.0);
+
+	glEnd();
 
 	// Right
+	glColor3d(0.42, 0.42, 0.42);
+
+	glBegin(GL_QUADS);
+	glVertex3d(1.0, -1.0, -1.0);
 	glVertex3d(1.0, 1.0, -1.0);
+	glVertex3d(1.0, 1.0, 1.0);
+	glVertex3d(1.0, -1.0, 1.0);
+	glEnd();
+
+	// Top
+	glColor3d(0.57, 0.57, 0.57);
+
+	glBegin(GL_QUADS);
+	glVertex3d(1.0, 1.0, 1.0); 
+	glVertex3d(-1.0, 1.0, 1.0);
+	glVertex3d(-1.0, 1.0, -1.0);
+	glVertex3d(1.0, 1.0, -1.0);
+	glEnd();
+
+	// Front
+	glColor3d(0.7, 0.7, 0.7);
+
+	glBegin(GL_QUADS);
+	glVertex3d(1.0, 1.0, -1.0);
+	glVertex3d(-1.0, 1.0, -1.0);
+	glVertex3d(-1.0, -1.0, -1.0);
 	glVertex3d(1.0, -1.0, -1.0);
 	glEnd();
 
-
-	//glColor3d(255.0, 0.0, 0.0);
-	glBegin(GL_QUAD_STRIP);
-
-	// Top
-	
-	glColor3d(0.0, 255.0, 0.0);
-
-	glVertex3d(-1.0, 1.0, 1.0);
-	glVertex3d(1.0, 1.0, 1.0);	
-	glVertex3d(-1.0, 1.0, -1.0);
-	glVertex3d(1.0, 1.0, -1.0);
-
-	// Front
-	glColor3d(0.0, 255.0, 255.0);
-	glVertex3d(-1.0, -1.0, -1.0);
-	glVertex3d(1.0, -1.0, -1.0);
-
 	// Bottom
-	glVertex3d(-1.0, -1.0, 1.0);
+	glColor3d(0.85, 0.85, 0.85);
+
+	glBegin(GL_QUADS);
 	glVertex3d(1.0, -1.0, 1.0);
+	glVertex3d(1.0, -1.0, -1.0);
+	glVertex3d(-1.0, -1.0, -1.0);
+	glVertex3d(-1.0, -1.0, 1.0);
 	glEnd();
 
 
