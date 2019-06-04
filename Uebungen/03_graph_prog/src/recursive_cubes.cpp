@@ -5,14 +5,42 @@
 //
 #include "recursive_cubes.h"
 #include <math.h>
+#include <iostream>
 
+
+int counter;
 // Initialize variables
 recursive_cubes::recursive_cubes()
 {
 	angle = 0;
 	// Set maximum recursion depth
 	depth = 4;
+
 }
+/********
+Additional Task: Recursively render the cube tree. One cube in the
+				 tree contains another tree on every side which is
+				 scaled by the factor 0.5 and translated to 4 units
+				 away from the side. Use this method for the recursion.
+				 The parameter "r" specifies the current recursion steps
+				 that can still be made (must be decremented for every step)
+				 while the parameter "render_all" is true if all sides shall
+				 be rendered and false if the side facing a bigger side of
+				 the last recursion step shall be omitted.
+Zusatzaufgabe:   Rendern Sie rekursiv den Wuerfelbaum. Ein Wuefel des Baums
+				 enthält einen weiteren Wuerfelbaum auf jeder Seite, der um
+				 den Faktor 0,5 skaliert und um 4 Einheiten von der Seite
+				 weg verschoben wurde. Nutzen Sie diese Methode für die Rekursion.
+				 Der Parameter "r" gibt die aktuell noch moeglichen Rekursions-
+				 schritte ein (und muss also bei jedem Schritt verringert werden).
+				 Der Paremter "render_all" soll auf true gesetzt werden, wenn
+				 alle Seiten gerendert werden sollen und auf false, wenn die Seite,
+				 die in Richtung einer größeren Seite eines Wuerfels aus dem vorherigen
+				 Schritt zeigt, ausgelassen werden soll.
+************/
+/*
+
+*/
 
 
 
@@ -31,93 +59,102 @@ void recursive_cubes::render()
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
 	// Start the recursive rendering
+	
+	
 	render_recursive(depth, true);
+	
 }
-
 
 void recursive_cubes::render_recursive(int r, bool render_all)
 {
 	
 	// Recursion end condition
-	if (r<=0)
+	if (r <= 0)
+	{
 		return;
+	}
+
+	if (!render_all)
+	{
+
+	
+	}
+
+	
+	
+	
+	
+
+
+
+	
+
+	//---------------------------------------------
+
+	for (int i = 0; i < r; ++i)
+	{
+		glPushMatrix();
+		glRotated(i * 90 - 90, 1, 0, 0);
+		glTranslated(2, 0, 0);
+		glScaled(0.5, 0.5, 0.5);
+		render_recursive(r - 1, false);
+		glPopMatrix();
+	}
+
+	for (int i = 0; i < r; ++i)
+	{
+		glPushMatrix();
+		glRotated(i * 90 - 90, 0, 1, 0);
+		glTranslated(0, 2, 0);
+		glScaled(0.5, 0.5, 0.5);
+		render_recursive(r - 1, false);
+		glPopMatrix();
+	}
+
+	for (int i = 0; i < r; ++i)
+	{
+		glPushMatrix();
+		glRotated(i * 90 - 90, 0, 0, 1);
+		glTranslated(0, 0, 2);
+		glScaled(0.5, 0.5, 0.5);
+		render_recursive(r - 1, false);
+		glPopMatrix();
+	}
+	//___________________________________________
+
+	for (int i = 0; i < r; ++i)
+	{
+		glPushMatrix();
+		glRotated(i * 90 - 90, 1, 0, 0);
+		glTranslated(-2, 0, 0);
+		glScaled(0.5, 0.5, 0.5);
+		render_recursive(r - 1, false);
+		glPopMatrix();
+	}
+
+	for (int i = 0; i < r; ++i)
+	{
+		glPushMatrix();
+		glRotated(i * 90 - 90, 0, 1, 0);
+		glTranslated(0, -2, 0);
+		glScaled(0.5, 0.5, 0.5);
+		render_recursive(r - 1, false);
+		glPopMatrix();
+	}
+
+	for (int i = 0; i < r; ++i)
+	{
+		glPushMatrix();
+		glRotated(i * 90 - 90, 0, 0, 1);
+		glTranslated(0, 0, -2);
+		glScaled(0.5, 0.5, 0.5);
+		render_recursive(r - 1, false);
+		glPopMatrix();
+	}
+	
 
 	// Render the actual cube
-	
-
-
-	/********
-	Additional Task: Recursively render the cube tree. One cube in the
-	                 tree contains another tree on every side which is
-					 scaled by the factor 0.5 and translated to 4 units
-					 away from the side. Use this method for the recursion.
-					 The parameter "r" specifies the current recursion steps
-					 that can still be made (must be decremented for every step)
-					 while the parameter "render_all" is true if all sides shall
-					 be rendered and false if the side facing a bigger side of
-					 the last recursion step shall be omitted.
-    Zusatzaufgabe:   Rendern Sie rekursiv den Wuerfelbaum. Ein Wuefel des Baums 
-	                 enthält einen weiteren Wuerfelbaum auf jeder Seite, der um
-					 den Faktor 0,5 skaliert und um 4 Einheiten von der Seite
-					 weg verschoben wurde. Nutzen Sie diese Methode für die Rekursion.
-					 Der Parameter "r" gibt die aktuell noch moeglichen Rekursions-
-					 schritte ein (und muss also bei jedem Schritt verringert werden).
-					 Der Paremter "render_all" soll auf true gesetzt werden, wenn
-					 alle Seiten gerendert werden sollen und auf false, wenn die Seite,
-					 die in Richtung einer größeren Seite eines Wuerfels aus dem vorherigen
-					 Schritt zeigt, ausgelassen werden soll.
-	************/
-	/* 
-
-	*/
-
-	//render_cube();
-	glColor3d(r * 0.3, r * 0.3, 0);
-	//left and right
-
-	glPushMatrix();
-	glScalef(pow(0.5, r), pow(0.5, r), pow(0.5, r));
-	glTranslated( (float)(4 / r), 0, 0);
 	render_cube();
-	glPopMatrix();
-	
-	glPushMatrix();
-	glScalef(pow(0.5, r), pow(0.5, r), pow(0.5, r));
-	glTranslated((float)(-4 / r), 0, 0);
-	render_cube();
-	glPopMatrix();
-	/*
-	//top and bottom
-	glPushMatrix();
-	glScalef(pow(0.5, r), pow(0.5, r), pow(0.5, r));
-	glTranslated(0, (float)(4 / r), 0);
-	render_cube();
-	glPopMatrix();
-		
-	glPushMatrix();
-	glScalef(pow(0.5, r), pow(0.5, r), pow(0.5, r));
-	glTranslated(0, (float)(-4 /r), 0);
-	render_cube();
-	glPopMatrix();
-
-	//front and back
-	glPushMatrix();
-	glScalef(pow(0.5, r), pow(0.5, r), pow(0.5, r));
-	glTranslated(0, 0, (float)(4 / r) );
-	render_cube();
-	glPopMatrix();
-
-	glPushMatrix();
-	glScalef(0.5, 0.5, 0.5);
-	glTranslated(0, 0, (float)(-4 / r));
-	render_cube();
-	glPopMatrix();
-	*/
-
-	r--;
-	render_recursive(r, true);
-
-	
 }
 
 
@@ -126,8 +163,9 @@ void recursive_cubes::render_recursive(int r, bool render_all)
 void recursive_cubes::render_cube()
 {
 	// Set color to yellow
-	//glColor3d(0.1, 1, 0);
+	glColor3d(1, 1, 0);
 	// Render a cube with side length 2
+	
 	glutSolidCube(2);
 	
 }
