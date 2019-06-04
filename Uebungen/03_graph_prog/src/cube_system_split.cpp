@@ -58,6 +58,10 @@ void cube_system_split::render()
 	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity();
 	gluPerspective(45, aspect, 0.01f, 100.0f);
+	// the three lines that cost qarter a day
+	// why should anybody take a 1 minute look into script if 
+	// you can "not-find" it in the internet for hours?!?!? 
+
 
 	glMatrixMode(GL_MODELVIEW);
 	glViewport(0, height / 2, width / 2, height / 2);
@@ -78,7 +82,7 @@ void cube_system_split::render()
 	gluLookAt(dist, 0.0f, 0.0f, 
 			  0.0f, 0.0f, 0.0f, 
 		      1.0f, 1.0f, 0.0f);
-	glutWireTeapot(0.3f);
+	//glutWireTeapot(0.3f);
 	cube_system::render_system();
 
 	// bottom left	<- XZ top view
@@ -101,7 +105,7 @@ void cube_system_split::render()
 			  0.0f, 0.0f, 0.0f, 
 			  0.0f, 1.0f, 0.0f);
 
-	glutWireTeapot(0.3f);
+	//glutWireTeapot(0.3f);
 	cube_system::render_system();
 
 
