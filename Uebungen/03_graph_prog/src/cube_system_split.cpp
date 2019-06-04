@@ -44,36 +44,46 @@ void cube_system_split::render()
 
 
 	
-	//glColor3f(1.0f, 0.0f, 0.0f);
+	glColor3f(1.0f, 0.0f, 0.0f);
 
 
 
 	// bottom left
 	glViewport(0, 0, width / 2, height / 2);
+	glMatrixMode(GL_MODELVIEW);
 	glLoadIdentity();
-	gluLookAt(0.0, 0.0, -1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0);
+
+	gluLookAt(0.0, 0.0, 2.0f, 
+		0.0, 0.0, 0.0, 
+		1.0, 1.0f, 1.0);
+
 	glutWireTeapot(0.3f);
 	cube_system::render_system();
 
 	// bottom right	<<<<<<<<<<<<<<<<<<<< 
 	glViewport(width / 2, 0, width / 2, height / 2);
 	glLoadIdentity();
-	gluLookAt(0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0f, 0.0);
+	gluLookAt(2.5f, 2.5f, 0.0f, 
+			0.0f, 0.0f, 0.0f, 
+			0.0f, 1.0f, 0.0f);
 
-	//glutWireTeapot(0.3f);
-	cube_system::render_system();
+	glutWireTeapot(0.3f);
+	//cube_system::render_system();
 
 	// top left
 	glViewport(0, height / 2, width / 2, height / 2);
+	gluLookAt(0.0, -10.0f, 0.0,
+		0.0, 0.0, 0.0,
+		0.0f, 0.0f, 1.0f);
 	glLoadIdentity();
-	gluLookAt(0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0);
+
 	glutWireTeapot(0.3f);
 	cube_system::render_system();
 
 	// top right
 	glViewport(width / 2, height / 2, width / 2, height / 2);
 	glLoadIdentity();
-	gluLookAt(0.0, -1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0);
+	gluLookAt(0.0, -1.0f, 0.0, 0.0, 0.0, 0.0, -1.0f, 0.0, 0.0);
 	glutWireTeapot(0.3f);
 	cube_system::render_system();
 
