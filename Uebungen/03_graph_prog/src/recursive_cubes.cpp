@@ -4,7 +4,7 @@
 // Copyright (C) 2016 CGV TU Dresden - All Rights Reserved
 //
 #include "recursive_cubes.h"
-
+#include <math.h>
 
 // Initialize variables
 recursive_cubes::recursive_cubes()
@@ -35,16 +35,15 @@ void recursive_cubes::render()
 }
 
 
-
-
 void recursive_cubes::render_recursive(int r, bool render_all)
 {
+	
 	// Recursion end condition
 	if (r<=0)
 		return;
 
 	// Render the actual cube
-	render_cube();
+	
 
 
 	/********
@@ -68,6 +67,57 @@ void recursive_cubes::render_recursive(int r, bool render_all)
 					 die in Richtung einer größeren Seite eines Wuerfels aus dem vorherigen
 					 Schritt zeigt, ausgelassen werden soll.
 	************/
+	/* 
+
+	*/
+
+	//render_cube();
+	glColor3d(r * 0.3, r * 0.3, 0);
+	//left and right
+
+	glPushMatrix();
+	glScalef(pow(0.5, r), pow(0.5, r), pow(0.5, r));
+	glTranslated( (float)(4 / r), 0, 0);
+	render_cube();
+	glPopMatrix();
+	
+	glPushMatrix();
+	glScalef(pow(0.5, r), pow(0.5, r), pow(0.5, r));
+	glTranslated((float)(-4 / r), 0, 0);
+	render_cube();
+	glPopMatrix();
+	/*
+	//top and bottom
+	glPushMatrix();
+	glScalef(pow(0.5, r), pow(0.5, r), pow(0.5, r));
+	glTranslated(0, (float)(4 / r), 0);
+	render_cube();
+	glPopMatrix();
+		
+	glPushMatrix();
+	glScalef(pow(0.5, r), pow(0.5, r), pow(0.5, r));
+	glTranslated(0, (float)(-4 /r), 0);
+	render_cube();
+	glPopMatrix();
+
+	//front and back
+	glPushMatrix();
+	glScalef(pow(0.5, r), pow(0.5, r), pow(0.5, r));
+	glTranslated(0, 0, (float)(4 / r) );
+	render_cube();
+	glPopMatrix();
+
+	glPushMatrix();
+	glScalef(0.5, 0.5, 0.5);
+	glTranslated(0, 0, (float)(-4 / r));
+	render_cube();
+	glPopMatrix();
+	*/
+
+	r--;
+	render_recursive(r, true);
+
+	
 }
 
 
@@ -76,9 +126,10 @@ void recursive_cubes::render_recursive(int r, bool render_all)
 void recursive_cubes::render_cube()
 {
 	// Set color to yellow
-	glColor3d(1, 1, 0);
+	//glColor3d(0.1, 1, 0);
 	// Render a cube with side length 2
 	glutSolidCube(2);
+	
 }
 
 
