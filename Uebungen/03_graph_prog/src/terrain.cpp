@@ -208,18 +208,20 @@ void terrain::render_terrain()
 
 
 	// Go through all rows (-1)
+	glBegin(GL_TRIANGLE_STRIP);
 	for (int y = 0; y<map_height-1; y++) {
 
 		// ... to be completed
 
 		// Draw one strip
 		for (int x = 0; x<map_width; x++) {
-
+			
 			// ... to be completed
 
 		}
 
 	}
+	glEnd();
 
 	glPopMatrix();
 }
