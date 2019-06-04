@@ -90,7 +90,8 @@ void recursive_cubes::render_recursive(int r, bool render_all)
 	
 
 	//---------------------------------------------
-
+	
+	//rechts
 	for (int i = 0; i < r; ++i)
 	{
 		glPushMatrix();
@@ -101,27 +102,7 @@ void recursive_cubes::render_recursive(int r, bool render_all)
 		glPopMatrix();
 	}
 
-	for (int i = 0; i < r; ++i)
-	{
-		glPushMatrix();
-		glRotated(i * 90 - 90, 0, 1, 0);
-		glTranslated(0, 2, 0);
-		glScaled(0.5, 0.5, 0.5);
-		render_recursive(r - 1, false);
-		glPopMatrix();
-	}
-
-	for (int i = 0; i < r; ++i)
-	{
-		glPushMatrix();
-		glRotated(i * 90 - 90, 0, 0, 1);
-		glTranslated(0, 0, 2);
-		glScaled(0.5, 0.5, 0.5);
-		render_recursive(r - 1, false);
-		glPopMatrix();
-	}
-	//___________________________________________
-
+	//links
 	for (int i = 0; i < r; ++i)
 	{
 		glPushMatrix();
@@ -132,6 +113,7 @@ void recursive_cubes::render_recursive(int r, bool render_all)
 		glPopMatrix();
 	}
 
+	//oben
 	for (int i = 0; i < r; ++i)
 	{
 		glPushMatrix();
@@ -142,6 +124,28 @@ void recursive_cubes::render_recursive(int r, bool render_all)
 		glPopMatrix();
 	}
 
+	//unten
+	for (int i = 0; i < r; ++i)
+	{
+		glPushMatrix();
+		glRotated(i * 90 - 90, 0, 1, 0);
+		glTranslated(0, 2, 0);
+		glScaled(0.5, 0.5, 0.5);
+		render_recursive(r - 1, false);
+		glPopMatrix();
+	}
+	//vorne
+	for (int i = 0; i < r; ++i)
+	{
+		glPushMatrix();
+		glRotated(i * 90 - 90, 0, 0, 1);
+		glTranslated(0, 0, 2);
+		glScaled(0.5, 0.5, 0.5);
+		render_recursive(r - 1, false);
+		glPopMatrix();
+	}
+
+	//hinten
 	for (int i = 0; i < r; ++i)
 	{
 		glPushMatrix();
@@ -151,6 +155,10 @@ void recursive_cubes::render_recursive(int r, bool render_all)
 		render_recursive(r - 1, false);
 		glPopMatrix();
 	}
+	//___________________________________________
+
+	
+
 	
 
 	// Render the actual cube
