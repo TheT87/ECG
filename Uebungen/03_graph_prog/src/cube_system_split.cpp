@@ -85,18 +85,19 @@ void cube_system_split::render()
 	//glutWireTeapot(0.3f);
 	cube_system::render_system();
 
-	// bottom left	<- XZ top view
+	// bottom left	<- XZ top view								<<<<< use gluOrthoAt
 	glViewport(0, 0, width / 2, height / 2);
 	glMatrixMode(GL_MODELVIEW);
 	glLoadIdentity();
+	
 	gluLookAt(0.0f, dist, 0.0f, 
 			  0.0f, 0.0f, 0.0f, 
 			  0.0f, 1.0f, 1.0f);
-
+	glOrtho(10.0f, 10.0f, 10.0f, 10.f, 0.01f, 100.0f);
 	//glutWireTeapot(0.3f);
 	cube_system::render_system();
 
-	// bottom right	<- perspective view <<									need fix 
+	// bottom right
 	glColor3f(1.0f, 0.0f, 0.0f);
 	glMatrixMode(GL_MODELVIEW);
 	glViewport(width / 2, 0, width / 2, height / 2);

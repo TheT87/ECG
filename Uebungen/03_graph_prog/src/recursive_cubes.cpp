@@ -65,8 +65,10 @@ void recursive_cubes::render()
 	
 }
 
+
 void recursive_cubes::render_recursive(int r, bool render_all)
 {
+
 	
 	// Recursion end condition
 	if (r <= 0)
@@ -76,13 +78,10 @@ void recursive_cubes::render_recursive(int r, bool render_all)
 
 	if (!render_all)
 	{
-
 	
 	}
 
-	
-	
-	
+		
 	
 
 

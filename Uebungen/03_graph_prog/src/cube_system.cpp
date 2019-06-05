@@ -121,7 +121,7 @@ void cube_system::render_cube()
 	
 
 	// Left
-	glColor3d(0.14, 0.14, 0.14);
+	glColor3d(0.14, 0.0, 1.0f);
 
 	glBegin(GL_QUADS);
 	glVertex3d(-1.0, -1.0, -1.0);
@@ -131,7 +131,7 @@ void cube_system::render_cube()
 	glEnd();
 
 	// Back
-	glColor3d(0.28, 0.28, 0.28);
+	glColor3d(0.95f, 0.15f, 0.0f);
 
 	glBegin(GL_QUADS);
 	glVertex3d(1.0, 1.0, 1.0);
@@ -142,7 +142,7 @@ void cube_system::render_cube()
 	glEnd();
 
 	// Right
-	glColor3d(0.42, 0.42, 0.42);
+	glColor3d(0.0f, 0.95, 0.10);
 
 	glBegin(GL_QUADS);
 	glVertex3d(1.0, -1.0, -1.0);
@@ -152,7 +152,7 @@ void cube_system::render_cube()
 	glEnd();
 
 	// Top
-	glColor3d(0.57, 0.57, 0.57);
+	glColor3d(0.95, 0.95, 0.95);
 
 	glBegin(GL_QUADS);
 	glVertex3d(1.0, 1.0, 1.0); 
@@ -161,8 +161,8 @@ void cube_system::render_cube()
 	glVertex3d(1.0, 1.0, -1.0);
 	glEnd();
 
-	// Front
-	glColor3d(0.7, 0.7, 0.7);
+	// Front // orange
+	glColor3d(1.0, 0.15, 0.45);
 
 	glBegin(GL_QUADS);
 	glVertex3d(1.0, 1.0, -1.0);
@@ -172,7 +172,7 @@ void cube_system::render_cube()
 	glEnd();
 
 	// Bottom
-	glColor3d(0.85, 0.85, 0.85);
+	glColor3d(0.85, 0.85, 0.0);
 
 	glBegin(GL_QUADS);
 	glVertex3d(1.0, -1.0, 1.0);
