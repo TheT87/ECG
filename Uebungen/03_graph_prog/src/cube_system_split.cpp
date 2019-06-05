@@ -90,10 +90,12 @@ void cube_system_split::render()
 	glMatrixMode(GL_MODELVIEW);
 	glLoadIdentity();
 	
-	gluLookAt(0.0f, dist, 0.0f, 
+	/*
+	gluLookAt(1.0f, 0.0f, 1.0f, 
 			  0.0f, 0.0f, 0.0f, 
-			  0.0f, 1.0f, 1.0f);
-	glOrtho(10.0f, 10.0f, 10.0f, 10.f, 0.01f, 100.0f);
+			  0.0f, 1.0f, 0.0f);
+	*/
+	glOrtho(-dist, dist, -dist, dist, -10.0f, 100.0f);
 	//glutWireTeapot(0.3f);
 	cube_system::render_system();
 
