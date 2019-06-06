@@ -49,7 +49,6 @@ void cube_system::advance_frame()
 // Render the cube system
 void cube_system::render_system()
 {
-	//--"geliehen"--------------------------------------------
 	// Save initial state
 	glPushMatrix();
 
@@ -89,13 +88,7 @@ void cube_system::render_system()
 	glTranslated(3, 0, 0);
 	glScaled(0.5, 0.5, 0.5);
 	render_cube();
-	
-	//--"geliehen" ende----------------------------------------
 
-	// Remove the following statement (if wanted) as it just serves 2.1.1.
-	// Entfernen Sie die folgende Anweisung gegebenenfalls, da sie lediglich dem Testen
-	// von Aufgabe 2.1.1 dient.
-	//render_cube();
 }
 
 

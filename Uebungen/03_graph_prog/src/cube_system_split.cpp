@@ -52,7 +52,6 @@ void cube_system_split::render()
 
 	GLfloat dist = 9.0f;
 
-
 	// top left
 	glEnable(GL_SCISSOR_TEST);
 	glScissor(0, height / 2, width / 2, height / 2);
@@ -77,11 +76,7 @@ void cube_system_split::render()
 	cube_system::render_system();
 	
 
-
-
-
 	// top right	<- YZ
-	
 	glScissor(width/2, height / 2, width / 2, height / 2);
 
 	glViewport(width / 2, height / 2, width / 2, height / 2);
@@ -100,11 +95,7 @@ void cube_system_split::render()
 	cube_system::render_system();
 	
 
-
-
-
 	// bottom left	<- XZ top view								
-
 	glScissor(0, 0, width / 2, height / 2);
 
 	glViewport(0, 0, width / 2, height / 2);
@@ -122,12 +113,8 @@ void cube_system_split::render()
 
 	cube_system::render_system();
 	
-	
-	
-	
 
 	// bottom right
-
 	glScissor(width/2, 0, width / 2, height / 2);
 
 	glViewport(width / 2, 0, width / 2, height / 2);
@@ -144,6 +131,7 @@ void cube_system_split::render()
 
 	cube_system::render_system();
 	
+
 	glDisable(GL_SCISSOR_TEST);
 
 	

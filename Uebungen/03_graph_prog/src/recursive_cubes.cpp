@@ -81,13 +81,6 @@ void recursive_cubes::render_recursive(int r, bool render_all)
 		return;
 	}
 
-		
-	
-
-
-
-	
-
 	//---------------------------------------------
 
 	//rechts
@@ -155,12 +148,6 @@ void recursive_cubes::render_recursive(int r, bool render_all)
 		render_recursive(r - 1, false);
 		glPopMatrix();
 	}
-	//___________________________________________
-
-	
-	//render_recursive(r - 1, false);
-	//glPopMatrix();
-	
 
 	// Render the actual cube
 	render_cube();
@@ -174,7 +161,6 @@ void recursive_cubes::render_cube()
 	// Set color to yellow
 	glColor3d(1, 1, 0);
 	// Render a cube with side length 2
-	
 	glutSolidCube(2);
 	
 }
