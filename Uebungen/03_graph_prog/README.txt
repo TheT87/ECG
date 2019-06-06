@@ -10,4 +10,5 @@ Person 2:
 	M-Nr: 4803900
 	Work: - The recursive_cubes.cpp and the cube_system.cpp was done by Person 2 (Task 3.3 point 4)
 	      - tried out getting the right orders, etc on cube_system_split
+	      - added clipping for cube_system_split
 
