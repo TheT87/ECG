@@ -49,7 +49,7 @@ void cube_system_split::render()
 	// GL_PROJECTION
 	// GL_MODELVIEW
 
-	GLfloat dist = 6.0f;
+	GLfloat dist = 9.0f;
 
 
 	// top left
