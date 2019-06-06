@@ -50,7 +50,7 @@ void cube_system_split::render()
 	// GL_PROJECTION
 	// GL_MODELVIEW
 
-	GLfloat dist = 6.0f;
+	GLfloat dist = 9.0f;
 
 
 	// top left
@@ -151,9 +151,9 @@ void cube_system_split::render()
 
 	glMatrixMode(GL_MODELVIEW);
 	glLoadIdentity();
-	gluLookAt(dist+2, dist+2, 0.0f,
+	gluLookAt(dist+2, dist, 0.0f,
 		0.0f, 0.0f, 0.0f,
-		0.0f, 1.0f, 0.0f);
+		0.0f, 0.9f, 0.0f);
 
 	//glutWireTeapot(0.3f);
 	glClear(GL_STENCIL_BUFFER_BIT | GL_ACCUM_BUFFER_BIT | GL_DEPTH_BUFFER_BIT | GL_COLOR_BUFFER_BIT);
