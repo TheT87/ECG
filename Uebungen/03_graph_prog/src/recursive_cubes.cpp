@@ -98,7 +98,7 @@ void recursive_cubes::render_recursive(int r, bool render_all)
 		glTranslated(2, 0, 0);
 		glScaled(0.5, 0.5, 0.5);
 		render_recursive(r - 1, false);
-		//glPopMatrix();
+		glPopMatrix();
 	}
 
 	//links
@@ -109,7 +109,7 @@ void recursive_cubes::render_recursive(int r, bool render_all)
 		glTranslated(-2, 0, 0);
 		glScaled(0.5, 0.5, 0.5);
 		render_recursive(r - 1, false);
-		//glPopMatrix();
+		glPopMatrix();
 	}
 
 	//oben
@@ -120,7 +120,18 @@ void recursive_cubes::render_recursive(int r, bool render_all)
 		glTranslated(0, -2, 0);
 		glScaled(0.5, 0.5, 0.5);
 		render_recursive(r - 1, false);
-		//glPopMatrix();
+		glPopMatrix();
+	}
+
+	//unten
+	for (int i = 0; i < r; ++i)
+	{
+		glPushMatrix();
+		glRotated(i * 90 - 90, 0, 1, 0);
+		glTranslated(0, 2, 0);
+		glScaled(0.5, 0.5, 0.5);
+		render_recursive(r - 1, false);
+		glPopMatrix();
 	}
 
 	//vorne
@@ -131,7 +142,7 @@ void recursive_cubes::render_recursive(int r, bool render_all)
 		glTranslated(0, 0, 2);
 		glScaled(0.5, 0.5, 0.5);
 		render_recursive(r - 1, false);
-		//glPopMatrix();
+		glPopMatrix();
 	}
 
 	//hinten
@@ -142,13 +153,13 @@ void recursive_cubes::render_recursive(int r, bool render_all)
 		glTranslated(0, 0, -2);
 		glScaled(0.5, 0.5, 0.5);
 		render_recursive(r - 1, false);
-		//glPopMatrix();
+		glPopMatrix();
 	}
 	//___________________________________________
 
 	
 	//render_recursive(r - 1, false);
-	glPopMatrix();
+	//glPopMatrix();
 	
 
 	// Render the actual cube
