@@ -152,7 +152,7 @@ void cube_system::render_cube()
 	glEnd();
 
 	// Top
-	glColor3d(0.95, 0.95, 0.95);
+	glColor3d(0.75, 0.75, 0.75);
 
 	glBegin(GL_QUADS);
 	glVertex3d(1.0, 1.0, 1.0); 

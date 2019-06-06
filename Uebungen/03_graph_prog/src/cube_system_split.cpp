@@ -5,7 +5,6 @@
 //
 #include "cube_system_split.h"
 
-
 // Render the scene
 void cube_system_split::render()
 {
@@ -49,20 +48,15 @@ void cube_system_split::render()
 	// GL_PROJECTION
 	// GL_MODELVIEW
 
-	// top left		<- XY
-	glColor3f(1.0f, 0.0f, 0.0f);
+	GLfloat dist = 6.0f;
 
 
-	GLfloat dist = 15.0f;
-
+	// top left
 	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity();
-	gluPerspective(45, aspect, 0.01f, 100.0f);
-	// the three lines that cost qarter a day
-	// why should anybody take a 1 minute look into script if 
-	// you can "not-find" it in the internet for hours?!?!? 
-
-
+	gluPerspective(0, aspect, 0.01f, 100.0f);
+	glOrtho(-dist, dist, -dist, dist, -1.0f, 100.0f);
+	
 	glMatrixMode(GL_MODELVIEW);
 	glViewport(0, height / 2, width / 2, height / 2);
 	glLoadIdentity();
@@ -70,14 +64,22 @@ void cube_system_split::render()
 			  0.0f, 0.0f, 0.0f,
 			  0.0f, 1.0f, 0.0f);
 
+	// eyeX, eyeY, eyeZ
+	// lookX, lookY, lookZ,
+	// tilt in coord
+
 	// glutWireTeapot(0.3f);
 	cube_system::render_system();
 
 
 	// top right	<- YZ
 	glColor3f(1.0f, 0.0f, 0.0f);
-	glMatrixMode(GL_MODELVIEW);
 	glViewport(width / 2, height / 2, width / 2, height / 2);
+	glMatrixMode(GL_PROJECTION);
+	glLoadIdentity();
+	gluPerspective(0, aspect, 0.01f, 100.0f);
+	glOrtho(-dist, dist, -dist, dist, -10.0f, 100.0f);
+	glMatrixMode(GL_MODELVIEW);
 	glLoadIdentity();
 	gluLookAt(dist, 0.0f, 0.0f, 
 			  0.0f, 0.0f, 0.0f, 
@@ -87,26 +89,36 @@ void cube_system_split::render()
 
 	// bottom left	<- XZ top view								<<<<< use gluOrthoAt
 	glViewport(0, 0, width / 2, height / 2);
+
+	glMatrixMode(GL_PROJECTION);
+	glLoadIdentity();
+	gluPerspective(0, aspect, 0.01f, 100.0f);
+	glOrtho(-dist, dist, -dist, dist, -1.0f, 100.0f);
+
 	glMatrixMode(GL_MODELVIEW);
 	glLoadIdentity();
 	
-	/*
-	gluLookAt(1.0f, 0.0f, 1.0f, 
+	gluLookAt(0.0f, 2.0f, 0.0f, 
 			  0.0f, 0.0f, 0.0f, 
-			  0.0f, 1.0f, 0.0f);
-	*/
-	glOrtho(-dist, dist, -dist, dist, -10.0f, 100.0f);
-	//glutWireTeapot(0.3f);
+			  1.0f, 1.0f, 0.0f);
 	cube_system::render_system();
 
+	
+	//glutWireTeapot(0.3f);
+
 	// bottom right
-	glColor3f(1.0f, 0.0f, 0.0f);
-	glMatrixMode(GL_MODELVIEW);
+
 	glViewport(width / 2, 0, width / 2, height / 2);
+
+	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity();
-	gluLookAt(dist, dist, 0.0f, 
-			  0.0f, 0.0f, 0.0f, 
-			  0.0f, 1.0f, 0.0f);
+	gluPerspective(45, aspect, 0.01f, 100.0f);
+
+	glMatrixMode(GL_MODELVIEW);
+	glLoadIdentity();
+	gluLookAt(dist+2, dist+2, 0.0f,
+		0.0f, 0.0f, 0.0f,
+		0.0f, 1.0f, 0.0f);
 
 	//glutWireTeapot(0.3f);
 	cube_system::render_system();
