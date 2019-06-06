@@ -42,7 +42,11 @@ Zusatzaufgabe:   Rendern Sie rekursiv den Wuerfelbaum. Ein Wuefel des Baums
 
 */
 
+enum lastDir {
+	LEFT, RIGHT, TOP, BOTTOM, FRONT, BACK
+};
 
+enum lastDir dir;
 
 // Render the scene
 void recursive_cubes::render()
@@ -66,6 +70,7 @@ void recursive_cubes::render()
 }
 
 
+
 void recursive_cubes::render_recursive(int r, bool render_all)
 {
 
@@ -76,11 +81,6 @@ void recursive_cubes::render_recursive(int r, bool render_all)
 		return;
 	}
 
-	if (!render_all)
-	{
-	
-	}
-
 		
 	
 
@@ -89,7 +89,7 @@ void recursive_cubes::render_recursive(int r, bool render_all)
 	
 
 	//---------------------------------------------
-	
+
 	//rechts
 	for (int i = 0; i < r; ++i)
 	{
@@ -98,7 +98,7 @@ void recursive_cubes::render_recursive(int r, bool render_all)
 		glTranslated(2, 0, 0);
 		glScaled(0.5, 0.5, 0.5);
 		render_recursive(r - 1, false);
-		glPopMatrix();
+		//glPopMatrix();
 	}
 
 	//links
@@ -109,7 +109,7 @@ void recursive_cubes::render_recursive(int r, bool render_all)
 		glTranslated(-2, 0, 0);
 		glScaled(0.5, 0.5, 0.5);
 		render_recursive(r - 1, false);
-		glPopMatrix();
+		//glPopMatrix();
 	}
 
 	//oben
@@ -120,19 +120,9 @@ void recursive_cubes::render_recursive(int r, bool render_all)
 		glTranslated(0, -2, 0);
 		glScaled(0.5, 0.5, 0.5);
 		render_recursive(r - 1, false);
-		glPopMatrix();
+		//glPopMatrix();
 	}
 
-	//unten
-	for (int i = 0; i < r; ++i)
-	{
-		glPushMatrix();
-		glRotated(i * 90 - 90, 0, 1, 0);
-		glTranslated(0, 2, 0);
-		glScaled(0.5, 0.5, 0.5);
-		render_recursive(r - 1, false);
-		glPopMatrix();
-	}
 	//vorne
 	for (int i = 0; i < r; ++i)
 	{
@@ -141,7 +131,7 @@ void recursive_cubes::render_recursive(int r, bool render_all)
 		glTranslated(0, 0, 2);
 		glScaled(0.5, 0.5, 0.5);
 		render_recursive(r - 1, false);
-		glPopMatrix();
+		//glPopMatrix();
 	}
 
 	//hinten
@@ -152,12 +142,13 @@ void recursive_cubes::render_recursive(int r, bool render_all)
 		glTranslated(0, 0, -2);
 		glScaled(0.5, 0.5, 0.5);
 		render_recursive(r - 1, false);
-		glPopMatrix();
+		//glPopMatrix();
 	}
 	//___________________________________________
 
 	
-
+	//render_recursive(r - 1, false);
+	glPopMatrix();
 	
 
 	// Render the actual cube

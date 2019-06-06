@@ -17,13 +17,21 @@ terrain::terrain()
 	dl_valid = false;
 	dl_handle = 0;
 
-	// Try to load the heightmap
-	if (!load_heightmap("../../data/tex_height.bmp"))
+	// Try to load the heightmap. First try it from
+	// "../../data" and then from "data/"
+	if (!load_heightmap("../../data/tex_height.bmp") && 
+		!load_heightmap("data/tex_height.bmp")) {
+		std::cout<<"Could not load the heightmap!"<<std::endl;
 		return;
+	}
 
-	// Try to load the texture
-	if (!load_texture("../../data/tex_topo.bmp", &texture_handle))
+	// Try to load the texture. First try it from
+	// "../../data" and then from "data/"
+	if (!load_texture("../../data/tex_topo.bmp", &texture_handle) && 
+		!load_texture("data/tex_topo.bmp", &texture_handle)) {
+		std::cout<<"Could not load the texture!"<<std::endl;
 		return;
+	}
 
 	initialized = true;
 
@@ -100,20 +108,9 @@ void terrain::render_solid_terrain()
 	glPolygonOffset(1, 1);
 	glEnable(GL_POLYGON_OFFSET_FILL);
 
-
-	/********
-	Task 2.2.4.    Activate 2D texture mapping and bind the texture that
-	               is identified by the handle "texture_handle". Do not remove
-				   any of the code in this method.
-	Aufgabe 2.2.4. Aktivieren Sie 2D-Texturierung und binden Sie die
-	               Textur, die ueber das Handle "texture_handle" identifiziert
-				   ist. Entfernen Sie keinen Code in dieser Methode.
-    ************/
-
-
-
-
-
+	// Enable texture mapping and bind our texture
+	glEnable(GL_TEXTURE_2D);
+	glBindTexture(GL_TEXTURE_2D, texture_handle);
 
 	// Set the material color to white
 	glColor3d(1, 1, 1);
@@ -156,6 +153,9 @@ void terrain::render_terrain()
 	int map_width = get_heightmap_width();
 	int map_height = get_heightmap_height();
 
+	// Factors needed for texture mapping
+	double factor_x = 1.0/static_cast<double>(map_width);
+	double factor_y = 1.0/static_cast<double>(map_height);
 
 	// Move and scale the coordinate system so that we can work with
 	// whole units. That means that a vertex at height map position (x, y)
@@ -166,112 +166,55 @@ void terrain::render_terrain()
 	glScaled(2.0/static_cast<double>(map_width), 1.0/256.0, 2.0/static_cast<double>(map_height));
 
 
-
-
-	/********
-	Task 2.2.1.    Complete the code below to create a regular grid which expands
-	               along the X-Z-layer. Create the grid by specifying triangle
-				   strips for each line. The coordinate system is already scaled
-				   and translated to use the values of the variables "x" and "y"
-				   defined below directly as coordinates. The initial height of
-				   the grid shall be 0.
-	Aufgabe 2.2.1. Vervollstaendigen Sie den nachfolgenden Quelltext um die 
-	               Erstellung eines regelmaessigen Gitters das sich ueber die
-				   X-Z-Ebene erstreckt. Erstellen Sie dieses Gitter, indem Sie
-				   zeilenweise Dreiecksstreifen definieren. Das Koordinatensystem
-				   ist bereits skaliert und verschoben, so dass Sie die Werte
-				   der Variablen "x" und "y", die unten definiert werden direkt
-				   als Koordinaten einsetzen koennen. Das Gitter soll zunaechst
-				   eine Hoehe von 0 besitzen.
-
-	
-	Task 2.2.2.    Now elevate the height of the vertices to create the grid terrain
-	               that corresponds to the height map. Use "get_heightmap_value(x, y)".
-    Aufgabe 2.2.2. Heben Sie jetzt die Vertices an um ein Drahtgitterterrain zu erstellen,
-	               das zur Hoehenkarte korrespondiert. Nutzen Sie die Methode 
-				   "get_heightmap_value(x, y)".
-
-
-	Task 2.2.3.    Make sure to call "set_normal" for every vertex and continue this 
-	               task in "set_normal".
-    Aufgabe 2.2.3. Stellen Sie sicher, dass Sie "set_normal" für jeden Vertex aufrufen
-	               und fahren Sie in "set_normal" mit der Aufgabe fort.
-
-
-    Task 2.2.4.    Activate texture mapping and bind the texture in the method 
-	               "render_solid_terrain". Provide 2D texture coordinates per vertex in
-				   this method using "glTexCoord2d". 
-    Aufgabe 2.2.4. Aktivieren Sie Texturmapping und binden Sie eine Textur in der
-	               Methode "render_solid_terrain". Spezifizieren Sie in dieser Methode pro
-				   Vertex eine Texturkoordinate mittels der Methode "glTexCoord2d".
-   *********/
-
-
 	// Go through all rows (-1)
-	glBegin(GL_TRIANGLE_STRIP);
 	for (int y = 0; y<map_height-1; y++) {
 
-		// ... to be completed
+		// Begin a new triangle strip
+		glBegin(GL_TRIANGLE_STRIP);
 
-		// Draw one strip
+		// Draw the strip by consecutively passing two points
 		for (int x = 0; x<map_width; x++) {
-			
-			// ... to be completed
 
+			// Set texture coordinates, normal and vertex for the first point
+			glTexCoord2d(x*factor_x, y*factor_y);
+			set_normal(x, y);
+			glVertex3d(x, get_heightmap_value(x, y), y);
+
+			// Set texture coordinates, normal and vertex for the second point
+			glTexCoord2d(x*factor_x, (y+1)*factor_y);
+			set_normal(x, y+1);
+			glVertex3d(x, get_heightmap_value(x, y+1), y+1);
 		}
 
+		glEnd();
 	}
-	glEnd();
 
 	glPopMatrix();
 }
 
 
 
-
 // Calculate and set the normal for height map entry (x,y)
 void terrain::set_normal(int x, int y)
 {
-	/********
-	Task 2.2.3.    Calculate the normal for the vertex that corresponds to
-	               the height map value (x, y). You can either use forward differences,
-				   backward differences or central differences. The latter will give
-				   the best results. The calculation is done by first determining direction
-				   vectors in X and Z and then using vector operations to get a vector that 
-				   is perpendicular to both. You find some examples for vector operations in 
-				   this project below. Do not forget to pass the normal to OpenGL using
-				   the command glNormal3d.
+	// The normal is estimated using central differences.
+	// Also forward or backward differences could be used. Mind that no border
+	// checks need to be done as this is handled in the get_heightmap_value method.
 
-	Aufgabe 2.2.3. Berechnen Sie die Normalen fuer den Vertex der zum Hoehenwert (x, y)
-	               gehoert. Sie koennen entweder Vorwaerts-, Rueckwaerts- oder Zentral-
-				   Differenzen verwenden. Die letzte Methode erzeugt die besten Resultate.
-				   Fuer die Berechnung werden zunaechst Richtungvektoren in X- und Z-Richtung
-				   gebildet und anschliessend mittels Vektoroperationen ein zu beiden Vektoren
-				   senkrechter Vektor berechnet. Nachfolgend ein paar Beispiele fuer Vektor-
-				   rechnungen in diesem Projekt. Vergessen Sie nicht die Normale nach der 
-				   Berechnung mittels glNormal3d an OpenGL zu senden.
+	// Get the vector in x-direction
+	vec3d dx(2.0, get_heightmap_value(x+1, y) - get_heightmap_value(x-1, y), 0.0);
+	// Get the vector in y-direction
+	vec3d dz(0.0, get_heightmap_value(x, y+1) - get_heightmap_value(x, y-1), 2.0);
 
-				   // Create a vector
-				   vec3d vec1(1.0, 1.0, 1.0);
-				   // Create another vector
-				   vec3d vec2(0.5, -1.0, 2.0);
-				   // Normalize the first vector
-				   vec1.normalize();
-				   // Add the first vector to the second
-				   vec2 = vec1 + vec2;
-				   // Increase the length of the first vector
-				   vec1 *= 10.0;
-				   // Calculate the dot product
-				   double x = dot(vec1, vec2);
-				   // Calculate the cross product
-				   vec3d vec3 = cross(vec1, vec2);
-				   // Get the length
-				   double l = vec3.length();
-				   // Get the components for a vector
-				   double x = vec3.x();
-				   double y = vec3.y();
-				   double z = vec3.z();
-   *****************/
+	// Normalize both vectors
+	dx.normalize();
+	dz.normalize();
+
+	// Get a vector which is perpendicular to dx and dy by using the cross product
+	vec3d normal = cross(dz, dx);
+
+	// Pass the normal
+	glNormal3d(normal.x(), normal.y(), normal.z());
 }
 
 
@@ -322,7 +265,6 @@ void terrain::create_level_line(int level)
 					 der gefundenen Linien in der Liste "level_lines" ab.
 	*************/
 }
-
 
 
 
@@ -438,10 +380,8 @@ bool terrain::load_heightmap(const char *filename)
 
 	// Return false and show an error message if the file
 	// could not be loaded
-	if (BMP_GetError() != BMP_OK) {
-		std::cout<<BMP_GetErrorDescription()<<std::endl;
+	if (BMP_GetError() != BMP_OK) 
 		return false;
-	}
 
 	// All went well...
 	return true;	
@@ -460,10 +400,8 @@ bool terrain::load_texture(const char *filename, GLuint *handle)
 
 	// Return false and show an error message if the file
 	// could not be loaded
-	if (BMP_GetError() != BMP_OK) {
-		std::cout<<BMP_GetErrorDescription()<<std::endl;
+	if (BMP_GetError() != BMP_OK) 
 		return false;
-	}
 
 	// Get a pointer to the bitmap data
 	unsigned char* data = BMP_GetImageData(bitmap);

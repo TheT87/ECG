@@ -16,6 +16,7 @@ void cube_system_split::render()
 
 	// Enable depth testing
 	glEnable(GL_DEPTH_TEST);
+	glEnable(GL_CLIP_PLANE0);
 
 	// Save the current view port
 	glPushAttrib(GL_VIEWPORT_BIT);
@@ -116,9 +117,9 @@ void cube_system_split::render()
 
 	glMatrixMode(GL_MODELVIEW);
 	glLoadIdentity();
-	gluLookAt(dist+2, dist+2, 0.0f,
-		0.0f, 0.0f, 0.0f,
-		0.0f, 1.0f, 0.0f);
+	gluLookAt(dist+2, dist, 0.0f,
+			  0.0f, 0.0f, 0.0f,
+			  0.0f, 0.9f, 0.0f);
 
 	//glutWireTeapot(0.3f);
 	cube_system::render_system();
