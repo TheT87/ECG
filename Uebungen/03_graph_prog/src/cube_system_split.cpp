@@ -46,7 +46,7 @@ void cube_system_split::render()
 
 	
 	glColor3f(1.0f, 0.0f, 0.0f);
-
+	glColor3f(1.0f, 0.0f, 0.0f);
 	// GL_PROJECTION
 	// GL_MODELVIEW
 
@@ -55,20 +55,16 @@ void cube_system_split::render()
 
 	// top left
 	glEnable(GL_SCISSOR_TEST);
-	glScissor(
-		0,
-		height / 2,
-		width / 2,
-		height / 2
-	);
+	glScissor(0, height / 2, width / 2, height / 2);
 
+	glViewport(0, height / 2, width / 2, height / 2);
+	
 	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity();
 	gluPerspective(0, aspect, 0.01f, 100.0f);
 	glOrtho(-dist, dist, -dist, dist, -1.0f, 100.0f);
 	
 	glMatrixMode(GL_MODELVIEW);
-	glViewport(0, height / 2, width / 2, height / 2);
 	glLoadIdentity();
 	gluLookAt(0.0f, 0.0f, dist,
 			  0.0f, 0.0f, 0.0f,
@@ -78,44 +74,40 @@ void cube_system_split::render()
 	// lookX, lookY, lookZ,
 	// tilt in coord
 	
-	glClear(GL_STENCIL_BUFFER_BIT | GL_ACCUM_BUFFER_BIT | GL_DEPTH_BUFFER_BIT | GL_COLOR_BUFFER_BIT);
 	cube_system::render_system();
 	
 
-	// top right	<- YZ
-	glScissor(
-		width/2,
-		height / 2,
-		width / 2,
-		height / 2
-	);
 
-	glColor3f(1.0f, 0.0f, 0.0f);
+
+
+	// top right	<- YZ
+	
+	glScissor(width/2, height / 2, width / 2, height / 2);
+
 	glViewport(width / 2, height / 2, width / 2, height / 2);
+	
 	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity();
 	gluPerspective(0, aspect, 0.01f, 100.0f);
 	glOrtho(-dist, dist, -dist, dist, -10.0f, 100.0f);
+	
 	glMatrixMode(GL_MODELVIEW);
 	glLoadIdentity();
 	gluLookAt(dist, 0.0f, 0.0f, 
 			  0.0f, 0.0f, 0.0f, 
 		      1.0f, 1.0f, 0.0f);
-	//glutWireTeapot(0.3f);
-
-	glClear(GL_STENCIL_BUFFER_BIT | GL_ACCUM_BUFFER_BIT | GL_DEPTH_BUFFER_BIT | GL_COLOR_BUFFER_BIT);
+	
 	cube_system::render_system();
 	
 
-	// bottom left	<- XZ top view								<<<<< use gluOrthoAt
-	
+
+
+
+	// bottom left	<- XZ top view								
+
+	glScissor(0, 0, width / 2, height / 2);
+
 	glViewport(0, 0, width / 2, height / 2);
-	glScissor(
-		0,
-		0,
-		width / 2,
-		height / 2
-	);
 	
 	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity();
@@ -124,26 +116,21 @@ void cube_system_split::render()
 
 	glMatrixMode(GL_MODELVIEW);
 	glLoadIdentity();
-	
 	gluLookAt(0.0f, 2.0f, 0.0f, 
 			  0.0f, 0.0f, 0.0f, 
 			  1.0f, 1.0f, 0.0f);
 
-	glClear(GL_STENCIL_BUFFER_BIT | GL_ACCUM_BUFFER_BIT | GL_DEPTH_BUFFER_BIT | GL_COLOR_BUFFER_BIT);
 	cube_system::render_system();
 	
 	
-	//glutWireTeapot(0.3f);
+	
+	
 
 	// bottom right
 
+	glScissor(width/2, 0, width / 2, height / 2);
+
 	glViewport(width / 2, 0, width / 2, height / 2);
-	glScissor(
-		width/2,
-		0,
-		width / 2,
-		height / 2
-	);
 
 	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity();
@@ -155,18 +142,16 @@ void cube_system_split::render()
 		0.0f, 0.0f, 0.0f,
 		0.0f, 0.9f, 0.0f);
 
-	//glutWireTeapot(0.3f);
-	glClear(GL_STENCIL_BUFFER_BIT | GL_ACCUM_BUFFER_BIT | GL_DEPTH_BUFFER_BIT | GL_COLOR_BUFFER_BIT);
 	cube_system::render_system();
 	
+	glDisable(GL_SCISSOR_TEST);
 
-
-
+	
 
 
 	// Restore the old view port
 	glPopAttrib();
-
+	
 	// Render split screen lines to span the whole window.
 	// For this the projection matrix and modelview matrix is
 	// set to the identity matrix. This ensures that the window
