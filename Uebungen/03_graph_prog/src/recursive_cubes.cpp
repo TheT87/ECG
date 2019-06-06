@@ -42,7 +42,11 @@ Zusatzaufgabe:   Rendern Sie rekursiv den Wuerfelbaum. Ein Wuefel des Baums
 
 */
 
+enum lastDir {
+	LEFT, RIGHT, TOP, BOTTOM, FRONT, BACK
+};
 
+enum lastDir dir;
 
 // Render the scene
 void recursive_cubes::render()
@@ -66,6 +70,7 @@ void recursive_cubes::render()
 }
 
 
+
 void recursive_cubes::render_recursive(int r, bool render_all)
 {
 
@@ -76,11 +81,6 @@ void recursive_cubes::render_recursive(int r, bool render_all)
 		return;
 	}
 
-	if (!render_all)
-	{
-	
-	}
-
 		
 	
 
@@ -89,7 +89,7 @@ void recursive_cubes::render_recursive(int r, bool render_all)
 	
 
 	//---------------------------------------------
-	
+
 	//rechts
 	for (int i = 0; i < r; ++i)
 	{
@@ -133,6 +133,7 @@ void recursive_cubes::render_recursive(int r, bool render_all)
 		render_recursive(r - 1, false);
 		glPopMatrix();
 	}
+
 	//vorne
 	for (int i = 0; i < r; ++i)
 	{
@@ -157,7 +158,8 @@ void recursive_cubes::render_recursive(int r, bool render_all)
 	//___________________________________________
 
 	
-
+	//render_recursive(r - 1, false);
+	//glPopMatrix();
 	
 
 	// Render the actual cube

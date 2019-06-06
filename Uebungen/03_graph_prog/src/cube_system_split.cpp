@@ -4,7 +4,6 @@
 // Copyright (C) 2016 CGV TU Dresden - All Rights Reserved
 //
 #include "cube_system_split.h"
-#include "tiny_vec.h"
 
 // Render the scene
 void cube_system_split::render()
@@ -17,6 +16,7 @@ void cube_system_split::render()
 
 	// Enable depth testing
 	glEnable(GL_DEPTH_TEST);
+	glEnable(GL_CLIP_PLANE0);
 
 	// Save the current view port
 	glPushAttrib(GL_VIEWPORT_BIT);
@@ -50,15 +50,9 @@ void cube_system_split::render()
 	// GL_MODELVIEW
 
 	GLfloat dist = 6.0f;
-	// top left
-	glEnable(GL_SCISSOR_TEST);
-	glScissor(
-		0,
-		height / 2,
-		width / 2,
-		height / 2
-	);
 
+
+	// top left
 	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity();
 	gluPerspective(0, aspect, 0.01f, 100.0f);
@@ -74,19 +68,12 @@ void cube_system_split::render()
 	// eyeX, eyeY, eyeZ
 	// lookX, lookY, lookZ,
 	// tilt in coord
-	
-	glClear(GL_STENCIL_BUFFER_BIT | GL_ACCUM_BUFFER_BIT | GL_DEPTH_BUFFER_BIT | GL_COLOR_BUFFER_BIT);
+
+	// glutWireTeapot(0.3f);
 	cube_system::render_system();
-	
+
 
 	// top right	<- YZ
-	glScissor(
-		width/2,
-		height / 2,
-		width / 2,
-		height / 2
-	);
-
 	glColor3f(1.0f, 0.0f, 0.0f);
 	glViewport(width / 2, height / 2, width / 2, height / 2);
 	glMatrixMode(GL_PROJECTION);
@@ -99,21 +86,11 @@ void cube_system_split::render()
 			  0.0f, 0.0f, 0.0f, 
 		      1.0f, 1.0f, 0.0f);
 	//glutWireTeapot(0.3f);
-
-	glClear(GL_STENCIL_BUFFER_BIT | GL_ACCUM_BUFFER_BIT | GL_DEPTH_BUFFER_BIT | GL_COLOR_BUFFER_BIT);
 	cube_system::render_system();
-	
 
 	// bottom left	<- XZ top view								<<<<< use gluOrthoAt
-	
 	glViewport(0, 0, width / 2, height / 2);
-	glScissor(
-		0,
-		0,
-		width / 2,
-		height / 2
-	);
-	
+
 	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity();
 	gluPerspective(0, aspect, 0.01f, 100.0f);
@@ -125,22 +102,14 @@ void cube_system_split::render()
 	gluLookAt(0.0f, 2.0f, 0.0f, 
 			  0.0f, 0.0f, 0.0f, 
 			  1.0f, 1.0f, 0.0f);
-
-	glClear(GL_STENCIL_BUFFER_BIT | GL_ACCUM_BUFFER_BIT | GL_DEPTH_BUFFER_BIT | GL_COLOR_BUFFER_BIT);
 	cube_system::render_system();
-	
+
 	
 	//glutWireTeapot(0.3f);
 
 	// bottom right
 
 	glViewport(width / 2, 0, width / 2, height / 2);
-	glScissor(
-		width/2,
-		0,
-		width / 2,
-		height / 2
-	);
 
 	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity();
@@ -148,14 +117,13 @@ void cube_system_split::render()
 
 	glMatrixMode(GL_MODELVIEW);
 	glLoadIdentity();
-	gluLookAt(dist+2, dist+2, 0.0f,
-		0.0f, 0.0f, 0.0f,
-		0.0f, 1.0f, 0.0f);
-	
+	gluLookAt(dist+2, dist, 0.0f,
+			  0.0f, 0.0f, 0.0f,
+			  0.0f, 0.9f, 0.0f);
+
 	//glutWireTeapot(0.3f);
-	glClear(GL_STENCIL_BUFFER_BIT | GL_ACCUM_BUFFER_BIT | GL_DEPTH_BUFFER_BIT | GL_COLOR_BUFFER_BIT);
 	cube_system::render_system();
-	
+
 
 
 
